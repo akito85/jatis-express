@@ -1,0 +1,129 @@
+	<window id="mainWindow" width="100%" height="100%" apply="" >
+		<borderlayout height="100%" width="100%">
+			<north  border="normal">
+				<vlayout id="header">
+				<div >
+					<label 
+						value="User Management" />
+					<div >
+						Logged in as
+						<label id="username" value="" />
+						
+						<a href="/j_spring_security_logout">
+								Logout
+						</a>
+					</div>
+				</div>
+				<toolbar id="toolbar"/>
+				</vlayout>
+			</north>
+            <west width="200px" border="0" flex="true" splittable="true"
+                margins="0,5,0,0">
+                <vlayout spacing="0">
+<tree      style=" background:transparent;border:none;"  >
+ 
+                        <treechildren style="background-color:#f1faff; ">
+                            <treeitem open="true" >
+                                <treerow id="treeSample" visible="true" >
+                                    <treecell   label="Sample Tree" style="font-family : arial; color : #000000;font-size : 10px; font-style : normal;    " />
+                                </treerow>
+                                <treechildren>
+                                    <treeitem>
+                                        <treerow id="sampleForm1"  visible="true">
+                                            <treecell  label="Sample Form 1"  />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow id="sampleForm2" visible="true">
+                                            <treecell   label="Sample Form 2" />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow id="sampleForm3" visible="true" >
+                                            <treecell  label="Sample Form 3" />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow   visible="true">
+                                            <treecell   label="Sample Form 4" />
+                                        </treerow>
+                                    </treeitem>
+                                </treechildren>
+                            </treeitem>
+                                                 <treeitem open="true" >
+                                <treerow id="treeSample2" visible="true" >
+                                    <treecell   label="Sample Tree 2" style="font-family : arial; color : #000000;font-size : 10px; font-style : normal;    " />
+                                </treerow>
+                                <treechildren>
+                                    <treeitem>
+                                        <treerow id="sampleForm4"  visible="true">
+                                            <treecell  label="Sample Form 4"  />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow id="sampleForm5" visible="true">
+                                            <treecell   label="Sample Form 5" />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow id="sampleForm6" visible="true" >
+                                            <treecell  label="Sample Form 3" />
+                                        </treerow>
+                                    </treeitem>
+                                    <treeitem>
+                                        <treerow   visible="true">
+                                            <treecell   label="Sample Form 6" />
+                                        </treerow>
+                                    </treeitem>
+                                </treechildren>
+                            </treeitem>
+                        </treechildren>
+                
+       
+                    
+                    </tree>   	                   
+                </vlayout>
+            </west>		
+			<!-- Main -->
+			<center border="normal" style="padding:5px"
+				autoscroll="true">
+				<vlayout id="centerId">
+<tabbox  >
+    <tabs>
+        <tab label="Tab 1" />
+        <tab label="Tab 2" />
+        <tab label="Tab 3" />
+        <tab label="Tab 4" />
+        <tab label="Tab 5" />
+        <tab label="Tab 6" />
+        <tab label="Tab 7" />
+        <tab label="Tab 8" />
+        <tab label="Tab 9" />
+        <tab label="Tab 10" />
+    </tabs>
+    <tabpanels>
+        <tabpanel style="color:#336699;" >
+        <include src="/sampleform1.zul"/>
+        </tabpanel>
+        <tabpanel style="color:#333399;"> <include src="/sampleform2.zul"/></tabpanel>
+        <tabpanel style="color:#663366;"> <include src="/sampleform3.zul"/></tabpanel>
+        <tabpanel style="color:#CC0033;"><include src="/suratRekomendasiPengemudi.zul"/></tabpanel>
+        <tabpanel style="color:#CC3300;">Panel 5</tabpanel>
+        <tabpanel style="color:#FF9900;">Panel 6</tabpanel>
+        <tabpanel style="color:#ABEA14;">Panel 7</tabpanel>
+        <tabpanel style="color:#008DB7;">Panel 8</tabpanel>
+        <tabpanel style="color:#CDCD3E;">Panel 9</tabpanel>
+        <tabpanel style="color:#C34576;">Panel 10</tabpanel>
+    </tabpanels>
+</tabbox>					
+				</vlayout>
+			</center>
+
+			<!-- Footer -->
+			<south size="40px" border="0"
+				style="background: none repeat scroll 0 0 ;padding-top:10px; padding-left:10px">
+				Powered by Jati Piranti Solusindo, PT
+			</south>
+
+		</borderlayout>
+	</window>

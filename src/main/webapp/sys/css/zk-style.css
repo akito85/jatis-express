@@ -1,0 +1,156 @@
+/* general html */
+@font-face {
+    font-family: 'OpenSansLight';
+    src: url('../../assets/font/OpenSans-Light-webfont.eot');
+    src: url('../../assets/font/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../assets/font/OpenSans-Light-webfont.woff') format('woff'),
+         url('../../assets/font/OpenSans-Light-webfont.ttf') format('truetype'),
+         url('../../assets/font/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* ZUL STYLE */
+.z-a {
+    color: #00ace3;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.z-label, .z-radio-cnt, .z-checkbox-cnt, .z-loading,
+.z-tabbox-accordion, .z-tabpanel-accordion,
+.z-button-os, .z-tab-accordion-text,
+.z-datebox-rounded-inp, .z-treecell, .z-treefooter-cnt, .z-treecell-cnt, .z-treecol-cnt {
+    font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
+}
+
+
+.z-tabpanels-accordion {
+    border: 0px !important;
+}
+
+.z-tabbox-accordion .z-tabpanel-accordion {
+    margin-bottom: 0px;
+    border:0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+    padding-left: 10px;	
+}
+
+.z-tab-accordion-header {
+    height: 34px;
+    background-color: #f9f9f9;
+    border: 0;
+}
+
+.z-tab-accordion-hm, .z-tab-accordion-text {
+    color: #585858; /* text color */
+    /* text-shadow: 0 1px 0 #3b3b3b; /* drop shadow */
+    text-decoration:none;
+    font-weight: normal !important;
+    height: 38px;
+    line-height: 36px;
+    padding: 0px 16px 0px 7px;
+    background: none rgb(249, 249, 249) !important;
+    color: rgb(88, 88, 88) !important;
+    text-shadow: none !important; 
+    font-size: 13px;  	
+}
+
+.z-grid-header .z-columns, .z-grid-header .z-auxhead,
+.z-auxheader-cnt {
+	background-color: none !important;
+	background-image: none !important;
+}
+
+.z-column-cnt, div.z-row-cnt {
+    color: #636363;
+	font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.z-grid, .z-auxheader-cnt, .z-auxhead, .z-auxheader, .z-grid-header, 
+.z-column-cnt, .z-columns, .z-column {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+
+.z-column-cnt .z-label {
+	font-weight: 700;
+}
+
+.z-datebox-rounded-inp { background-image: none !important; font-size: 11px !important; }
+
+.z-combobox-rounded .z-combobox-rounded-btn, .z-bandbox-rounded .z-bandbox-rounded-btn, .z-datebox-rounded .z-datebox-rounded-btn, .z-timebox-rounded .z-timebox-rounded-btn, .z-spinner-rounded .z-spinner-rounded-btn, .z-doublespinner-rounded .z-doublespinner-rounded-btn {
+    background-position: 0 -120px;
+    height: 19px;
+    width: 24px;
+    background: url("/jatisexpress/zkau/web/b4b2ff8/zul/img/input/combobtn.gif") no-repeat scroll 0 -1px transparent !important;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 19px;
+    overflow: hidden;
+    vertical-align: top;
+    width: 18px;
+    border-color: #B2B2B2 #E6E6E6 #E6E6E6 -moz-use-text-color;
+
+}
+
+.z-grid-header tr.z-columns, div.z-grid-header tr.z-auxhead {
+    background-color: white;
+    background-image: none !important;
+    background-repeat: repeat-x;
+}
+
+.z-tree, .z-tree-body {
+    background: transparent !important;
+    border: none !important;
+    overflow: hidden;
+} 
+
+.z-treecell, .z-treerow {
+	border: none !important;
+	font-size: 13px !important;
+}
+
+.z-treefooter-cnt, .z-treecell-cnt, .z-treecol-cnt {
+    border: 0 none;
+    color: #000 !important;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 0;
+    padding: 5px !important;
+}
+
+.z-treerow-focus {
+	/* background-color: #00ace3 !important; */
+	border-radius: 2px 2px 2px 2px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

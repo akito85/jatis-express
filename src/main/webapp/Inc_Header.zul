@@ -1,0 +1,16 @@
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+    <div sclass="navbar navbar-inverse navbar-fixed-top">
+      <div sclass="navbar-inner">
+        <div sclass="container-fluid">
+            
+            <a sclass="brand" href="#">EXPRESS</a>
+          
+            <x:ul class="nav pull-right">
+              <x:li class="active"><a href="#">Admin</a></x:li>
+              <x:li><a href="#about">Logout</a></x:li>
+            </x:ul>			
+
+        </div>
+      </div>
+    </div>
+</zk>

@@ -1,0 +1,189 @@
+<?page title="Tambah Master Driver" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+	<include src="Inc_Header.zul" />
+
+
+    <div sclass="container-fluid content">
+        <div sclass="span3 accordion" id="leftMenu">
+			<include src="Inc_LeftMenu.zul" />
+		</div>
+
+        <div sclass="main-content">
+          <div sclass="thelabel">Tambah data pengemudi</div>
+          <div sclass="row subcontent">
+          
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="Pool"/>
+	                	<combobox>
+	                		<comboitem label="1"/>
+	                		<comboitem label="2"/>
+	                		<comboitem label="3"/>
+	                	</combobox>
+              </div>
+              
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+	                	<label sclass="control-label span2" value="Tipe Pengemudi"/>
+		                	<combobox>
+		                		<comboitem label="1"/>
+		                		<comboitem label="2"/>
+		                		<comboitem label="3"/>
+		                	</combobox>
+	              </div> 
+	              
+	              <div sclass="control-group span5">
+	                	<label sclass="control-label span2" value="Status Pengemudi"/>
+		                	<combobox>
+		                		<comboitem label="1"/>
+		                		<comboitem label="2"/>
+		                		<comboitem label="3"/>
+		                	</combobox>
+	              </div>
+	          </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+		                <label sclass="control-label span2" value="Nama Depan"/>
+							<textbox />
+	              </div>
+	
+	              <div sclass="control-group span5"> 
+		                <label sclass="control-label span2" value="Nama Belakang"/>
+							<textbox />
+	              </div>
+	          </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5"> 
+		                <label sclass="control-label span2" value="No. KIP Lama"/>
+							<textbox />
+	              </div>
+	              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="No. KIP Baru"/>
+							<textbox />              
+	              </div>
+	          </div>
+              	          
+	          <div sclass="row">
+	          	  <div sclass="control-group span5">
+	          	  		<label sclass="control-label span2" value="Tempat Lahir" />
+	          	  		    <textbox />
+	          	  </div>
+
+	          	  <div sclass="control-group span5">
+	          	  		<label sclass="control-label span2" value="Tanggal Lahir" />
+	          	  		    <datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />
+	          	  </div>
+	          </div>
+              
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="Agama"/>
+	                	<combobox>
+	                		<comboitem label="1"/>
+	                		<comboitem label="2"/>
+	                		<comboitem label="3"/>
+	                	</combobox>
+              </div>
+
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="Jenis Kelamin"/>
+	                	<combobox>
+	                		<comboitem label="1"/>
+	                		<comboitem label="2"/>
+	                		<comboitem label="3"/>
+	                	</combobox>
+              </div>
+
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="Status Kawin"/>
+	                	<combobox>
+	                		<comboitem label="1"/>
+	                		<comboitem label="2"/>
+	                		<comboitem label="3"/>
+	                	</combobox>
+              </div>
+
+              <div sclass="control-group">
+					<label sclass="control-label span2" value="Jumlah Tanggungan"/>
+						<textbox />              
+              </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="No. KTP"/>
+							<textbox />              
+	              </div>
+		              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Tanggal Berlaku KTP"/>
+							<datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
+	              </div>
+	          </div>
+              	                      
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Alamat KTP"/>
+							<textbox />              
+	              </div>
+		              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Kota KTP"/>
+							<textbox />
+	              </div>
+	          </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Alamat Domisili"/>
+							<textbox />              
+	              </div>
+		              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Kota Domisili"/>
+							<textbox />
+	              </div>
+	          </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="No. SIM"/>
+							<textbox />              
+	              </div>
+		              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Jenis SIM"/>
+	                	<combobox>
+	                		<comboitem label="A"/>
+	                		<comboitem label="B"/>
+	                		<comboitem label="C"/>
+	                	</combobox>
+	              </div>
+	          </div>
+
+			  <div sclass="row">
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Berlaku SIM"/>
+							<datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
+	              </div>
+		              
+	              <div sclass="control-group span5">
+						<label sclass="control-label span2" value="Berlaku KIP"/>
+							<datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
+	              </div>
+	          </div>
+
+              <div sclass="form-actions">
+                <button sclass="btn btn-success" label="Tambah" />
+                <button sclass="btn btn-danger" label="Batal" href="master_driver.zul"/>
+              </div>   
+              
+          </div>
+          
+          
+        </div>
+	</div>
+</zk>

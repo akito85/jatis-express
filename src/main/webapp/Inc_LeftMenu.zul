@@ -1,0 +1,199 @@
+<tree id="tree" width="99%">
+    <treechildren>
+        <treeitem label="HOME" />
+        <treeitem label="ADMIN" />
+        <treeitem label="CSO" />
+        <treeitem open="false">
+            <treerow>
+                <treecell label="FnA" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+        
+        <treeitem open="false">
+            <treerow>
+                <treecell label="Government" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="Gudang" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="IT" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="Kasir" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="Mekanik" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="Operasi" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell label="1" />
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">2</a></treecell>
+            		</treerow>
+            	</treeitem>
+            </treechildren>
+        </treeitem>
+
+        <treeitem open="false">
+            <treerow>
+                <treecell label="PAK" />
+            </treerow>
+
+            <treechildren>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="master_driver.zul">Master Driver</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="surat_rekomendasi_pengemudi.zul">Surat Rekomendasi Pengemudi</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="tanda_terima_deposit.zul">Tanda Terima Deposit</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="cetak_kip.zul">Cetak KIP</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="koreksi_hutang_deposit.zul">Koreksi Hutang Deposit</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="jadwal_training.zul">Jadwal Training</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="cetak_daftar_hadir.zul">Cetak Daftar Hadir</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">Pelanggaran dan Penghargaan Driver</a></treecell>
+            		</treerow>
+            	</treeitem>
+            	<treeitem>
+            		<treerow>
+            			<treecell><a href="#">Laporan</a></treecell>
+            		</treerow>
+            	</treeitem>
+
+
+            </treechildren>
+        </treeitem>
+
+        <treeitem label="Purchasing" />
+        <treeitem label="TnD" />
+     
+    </treechildren>
+</tree>    

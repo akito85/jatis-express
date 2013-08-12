@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+    <system-config>
+        <ui-factory-class>org.zkoss.zk.ui.http.SerializableUiFactory</ui-factory-class>
+        <disable-zscript>false</disable-zscript>
+    </system-config>
+    
+    <language-addon>
+	    <component>
+	        <component-name>button</component-name>
+	        <extends>button</extends>
+	        <property>
+	            <property-name>autodisable</property-name>
+	            <property-value>self</property-value>
+	        </property>
+	    </component>
+	</language-addon>
+
+	<desktop-config>
+	    <theme-uri>/sys/css/zk-style.css</theme-uri>
+	    <theme-uri>/sys/includes/bootstrap/css/bootstrap.css</theme-uri>
+	    <theme-uri>/sys/includes/bootstrap/css/bootstrap-responsive.css</theme-uri>
+	    <theme-uri>/sys/css/style.css</theme-uri>
+	</desktop-config>		
+</zk>

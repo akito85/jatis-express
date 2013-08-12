@@ -1,0 +1,80 @@
+<?page title="Tanda Terima Deposit Tambah" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+	<include src="Inc_Header.zul" />
+
+
+    <div sclass="container-fluid content">
+        <div sclass="span3 accordion" id="leftMenu">
+			<include src="Inc_LeftMenu.zul" />
+		</div>
+
+        <div sclass="main-content">
+
+		    <div sclass="row-fluid navbar navbar-static-top">
+                <x:ul sclass="nav topnav bold">
+                    <x:li sclass="active"><a href="tanda_terima_deposit_tambah.zul"><x:i sclass="icon-plus"></x:i>&#32;Tambah&#32;</a></x:li>
+                    <x:li><a href="#"><x:i sclass="icon-print"></x:i>&#32;Cetak</a></x:li>
+                </x:ul>
+		    </div>
+
+            
+          
+          	<div sclass="thelabel">Tanda Terima Deposit</div>
+          	<div sclass="row subcontent">
+
+                 <div sclass="control-group">
+                    <label sclass="control-label span2" value="No. Transaksi"/>
+                    <textbox name="no_transaksi" />
+                 </div>
+                 
+                 <div sclass="control-group">
+                    <label sclass="control-label span2" value="Pool"/>
+		          	<combobox>
+		          		<comboitem label="1"/>
+		          		<comboitem label="2"/>
+		          		<comboitem label="3"/>
+		          	</combobox>
+                 </div>
+                
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="Tanggal Transaksi"/>
+                     <textbox name="tanggal_transaksi" />
+                 </div>
+
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="No Rekomendasi"/>
+                     <textbox name="no_rekomendasi" />
+                 </div>
+
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="Harus Dibayar"/>
+                     <textbox name="harus_dibayar" />
+                 </div>
+
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="Total Bayar"/>
+                     <textbox name="total_bayar" />
+                 </div>
+
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="Kurang Bayar"/>
+                     <textbox name="kurang_bayar" />
+                 </div>
+                 
+                 <div sclass="control-group">
+                     <label sclass="control-label span2" value="Catatan"/>
+                     <textbox name="catatan" />
+                 </div>
+
+				 <div class="form-actions">
+				    <button sclass="btn btn-success" label="Tambah" />	
+					<button sclass="btn btn-danger" label="Batal" href="tanda_terima_deposit.zul"/>
+				 </div> 
+  
+          </div> <!-- end subcontent -->
+		</div> <!-- end main content -->
+	</div> <!-- end container -->
+</zk>

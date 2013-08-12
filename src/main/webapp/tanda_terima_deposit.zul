@@ -1,0 +1,71 @@
+<?page title="Tanda Terima Deposit" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+	<include src="Inc_Header.zul" />
+
+
+    <div sclass="container-fluid content">
+        <div sclass="span3 accordion" id="leftMenu">
+			<include src="Inc_LeftMenu.zul" />
+		</div>
+
+        <div sclass="main-content">
+		    <div sclass="row-fluid navbar navbar-static-top">
+                <x:ul sclass="nav topnav bold">
+                    <x:li><a href="tanda_terima_deposit_tambah.zul"><x:i sclass="icon-plus"></x:i>&#32;Tambah&#32;</a></x:li>
+                    <x:li><a href="#"><x:i sclass="icon-print"></x:i>&#32;Cetak</a></x:li>
+                </x:ul>
+		    </div>
+            
+          
+          	<div sclass="thelabel">Tanda Terima Deposit</div>
+          	<div sclass="row subcontent">
+		    <grid>
+		        <columns>
+		            <column hflex="1">ID</column>
+		            <column hflex="1">Pool</column>
+		            <column hflex="1">First Name</column>
+		            <column hflex="1">Last Name</column>
+		            <column hflex="1">Edit</column>
+		            
+		        </columns>
+		        <rows sclass="narrow">
+		            <row>
+		            	<label value="1" />
+		            	<label value="Jakarta" />
+		                <label value="John" />
+		                <label value="Doe" />
+						<div>
+			                <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+			                <a href="#"><x:i sclass="icon-remove"></x:i></a>
+		                </div>
+		            </row>
+		            <row>
+		            	<label value="1" />
+		            	<label value="Jakarta" />
+		                <label value="John" />
+		                <label value="Doe" />
+						<div>
+			                <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+			                <a href="#"><x:i sclass="icon-remove"></x:i></a>
+		                </div>
+		            </row>
+		            <row>
+		            	<label value="1" />
+		            	<label value="Jakarta" />
+		                <label value="John" />
+		                <label value="Doe" />
+						<div>
+			                <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+			                <a href="#"><x:i sclass="icon-remove"></x:i></a>
+		                </div>
+		            </row>		
+		        </rows>
+		    </grid>                    
+          </div>
+          
+        </div>
+	</div>
+</zk>
