@@ -1,0 +1,113 @@
+<!--  start root components cannot be included using <include> -->
+<?page title="Penerimaan Barang Gudang Dari Supplier" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+    <include src="Inc_Header.zul" />
+
+    <!-- container page -->
+    <div sclass="container-fluid content">
+    
+        <!-- leftmenu -->
+        <div sclass="span3 accordion" id="leftMenu">
+            <include src="Inc_LeftMenu.zul"/>
+        </div>
+        <!-- end of leftmenu -->
+
+        <!-- main-content -->
+        <div sclass="main-content">
+          <div sclass="thelabel">Cari data inventory</div>
+
+          <!--  sub-content 1 -->   
+          <div sclass="row subcontent">
+          
+              <div sclass="control-group">
+                    <label sclass="control-label span2" value="Kode Barang"/>
+                    <textbox />
+              </div>
+
+              <div sclass="control-group">
+                    <label sclass="control-label span2" value="Nama Barang"/>
+                    <textbox />
+              </div> 
+
+              <div sclass="control-group">
+                    <label sclass="control-label span2" value="Tipe Barang"/>
+                    <textbox />
+              </div>
+
+              <div sclass="control-group">
+                    <label sclass="control-label span2" value="Merk"/>
+                    <textbox />
+              </div>
+
+              <div sclass="control-group">
+                    <label sclass="control-label span2" value="No. Part"/>
+                    <textbox />
+              </div>
+
+              <div class="form-actions">
+                <button class="btn btn-primary" label="Cari" />
+                <button class="btn btn-success" label="Tambah Baru" href="master_data_inventory_tambah.zul" />
+              </div>
+              
+          </div>
+          <!-- end sub-content 1 -->
+          
+          
+          <div sclass="thelabel">Master Data Inventory</div>
+          
+          <!--  start sub-content 2 -->
+          <div sclass="row-fluid subcontent">
+            <grid>
+                <columns>
+                    <column hflex="1">Kode Barang</column>
+                    <column hflex="1">Nama Barang</column>
+                    <column hflex="1">Merk</column>
+                    <column hflex="1">Tipe</column>
+                    <column hflex="1">No. Part</column>
+                    <column hflex="1">Operations</column>
+                </columns>
+                <rows sclass="narrow">
+                    <row>
+                        <label value="1" />
+                        <label value="Pulpen" />
+                        <label value="Standard" />
+                        <label value="ATK" />
+                        <label value="ATK-PUL-001" />
+                        <div>
+                            <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+                            <a href="#"><x:i sclass="icon-remove"></x:i></a>
+                        </div>
+                    </row>
+                    <row>
+                        <label value="2" />
+                        <label value="Pulpen" />
+                        <label value="Standard" />
+                        <label value="ATK" />
+                        <label value="ATK-PUL-002" />
+                        <div>
+                            <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+                            <a href="#"><x:i sclass="icon-remove"></x:i></a>
+                        </div>
+                    </row>
+                    <row>
+                        <label value="3" />
+                        <label value="Pulpen" />
+                        <label value="Standard" />
+                        <label value="ATK" />
+                        <label value="ATK-PUL-003" />
+                        <div>
+                            <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+                            <a href="#"><x:i sclass="icon-remove"></x:i></a>
+                        </div>
+                    </row>      
+                </rows>
+            </grid>                    
+                    
+          </div>
+          <!-- end sub-content 2 -->
+        </div>
+    </div>
+</zk>

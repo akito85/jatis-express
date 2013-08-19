@@ -1,0 +1,81 @@
+<!--  start root components cannot be included using <include> -->
+<?page title="Tambah Permintaan dan Pembelian Barang" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+	<include src="Inc_Header.zul" />
+
+	<!-- container page -->
+    <div sclass="container-fluid content">
+    
+    	<!-- leftmenu -->
+        <div sclass="span3 accordion" id="leftMenu">
+        	<include src="Inc_LeftMenu.zul"/>
+		</div>
+		<!-- end of leftmenu -->
+
+		<!-- main-content -->
+        <div sclass="main-content">
+          <div sclass="thelabel">Permintaan dan Pembelian Barang</div>
+
+		  <!-- sub-content 1 -->	
+          <div sclass="row subcontent">
+          
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="Tanggal Transaksi"/>
+					<datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />
+              </div>
+
+              <div sclass="control-group">
+                	<label sclass="control-label span2" value="No. Transaksi"/>
+					<textbox />
+              </div> 
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Keterangan"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Kode Barang"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Nama Barang"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="No. Part"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Jumlah"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Satuan"/>
+					<textbox />
+              </div>
+
+              <div sclass="control-group">
+	                <label sclass="control-label span2" value="Keterangan"/>
+					<textbox />
+              </div>
+
+
+              <div class="form-actions">
+                <button class="btn btn-success" label="Simpan" />
+                <button class="btn btn-danger" label="Back" href="permintaan_pembelian_barang.zul" />
+              </div>
+              
+          </div>
+          <!-- end sub-content 1 -->
+        </div> <!-- end main-content -->
+          
+    </div>     
+</zk>
