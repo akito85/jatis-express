@@ -49,7 +49,7 @@
 
               <div class="form-actions">
                 <button class="btn btn-primary" label="Cari" />
-                <button class="btn btn-success" label="Tambah Baru" href="master_driver_tambah.zul" />
+                <button class="btn btn-success" label="Tambah Baru" href="master_data_inventory_tambah.zul" />
               </div>
               
           </div>

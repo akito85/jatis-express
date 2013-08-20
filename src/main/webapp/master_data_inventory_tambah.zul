@@ -48,7 +48,8 @@
               </div>
 
               <div class="form-actions">
-                <button class="btn btn-success" label="Tambah Baru" />
+                <button class="btn btn-success" label="Tambah" />
+                <button class="btn btn-danger" label="Back" href="master_data_inventory.zul" />
               </div>
               
           </div>

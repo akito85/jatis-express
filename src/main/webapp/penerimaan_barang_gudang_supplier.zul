@@ -23,33 +23,25 @@
           <div sclass="row subcontent">
           
               <div sclass="control-group">
-                    <label sclass="control-label span2" value="Kode Barang"/>
-                    <textbox />
+                    <label sclass="control-label span2" value="Bulan"/>
+                    <datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />
               </div>
 
               <div sclass="control-group">
-                    <label sclass="control-label span2" value="Nama Barang"/>
+                    <label sclass="control-label span2" value="Pool"/>
                     <textbox />
               </div> 
 
               <div sclass="control-group">
-                    <label sclass="control-label span2" value="Tipe Barang"/>
+                    <label sclass="control-label span2" value="No. Transaksi"/>
                     <textbox />
               </div>
 
-              <div sclass="control-group">
-                    <label sclass="control-label span2" value="Merk"/>
-                    <textbox />
-              </div>
 
-              <div sclass="control-group">
-                    <label sclass="control-label span2" value="No. Part"/>
-                    <textbox />
-              </div>
 
               <div class="form-actions">
                 <button class="btn btn-primary" label="Cari" />
-                <button class="btn btn-success" label="Tambah Baru" href="master_data_inventory_tambah.zul" />
+                <button class="btn btn-success" label="Tambah Baru" href="penerimaan_barang_gudang_supplier_tambah.zul" />
               </div>
               
           </div>
@@ -62,48 +54,54 @@
           <div sclass="row-fluid subcontent">
             <grid>
                 <columns>
-                    <column hflex="1">Kode Barang</column>
-                    <column hflex="1">Nama Barang</column>
-                    <column hflex="1">Merk</column>
-                    <column hflex="1">Tipe</column>
-                    <column hflex="1">No. Part</column>
-                    <column hflex="1">Operations</column>
+                    <column hflex="1">No. Transkasi</column>
+                    <column hflex="1">Tanggal Transaksi</column>
+                    <column hflex="1">No. Permintaan</column>
+                    <column hflex="1">No. Pemesanan</column>
+                    <column hflex="1">Supplier</column>
+                    <column hflex="1">Status Return</column>
+                    <column hflex="1">Keterangan</column>
                 </columns>
                 <rows sclass="narrow">
                     <row>
                         <label value="1" />
-                        <label value="Pulpen" />
-                        <label value="Standard" />
-                        <label value="ATK" />
-                        <label value="ATK-PUL-001" />
+                        <label value="12-12-2012" />
+                        <label value="001-a" />
+                        <label value="001-b" />
+                        <label value="xyz" />
+                        <label value="processing" />
                         <div>
                             <a href="#"><x:i sclass="icon-pencil"></x:i></a>
                             <a href="#"><x:i sclass="icon-remove"></x:i></a>
                         </div>
                     </row>
                     <row>
-                        <label value="2" />
-                        <label value="Pulpen" />
-                        <label value="Standard" />
-                        <label value="ATK" />
-                        <label value="ATK-PUL-002" />
+                        <label value="1" />
+                        <label value="12-12-2012" />
+                        <label value="001-a" />
+                        <label value="001-b" />
+                        <label value="xyz" />
+                        <label value="processing" />
                         <div>
                             <a href="#"><x:i sclass="icon-pencil"></x:i></a>
                             <a href="#"><x:i sclass="icon-remove"></x:i></a>
                         </div>
                     </row>
+
                     <row>
-                        <label value="3" />
-                        <label value="Pulpen" />
-                        <label value="Standard" />
-                        <label value="ATK" />
-                        <label value="ATK-PUL-003" />
+                        <label value="1" />
+                        <label value="12-12-2012" />
+                        <label value="001-a" />
+                        <label value="001-b" />
+                        <label value="xyz" />
+                        <label value="processing" />
                         <div>
                             <a href="#"><x:i sclass="icon-pencil"></x:i></a>
                             <a href="#"><x:i sclass="icon-remove"></x:i></a>
                         </div>
-                    </row>      
+                    </row>
                 </rows>
+
             </grid>                    
                     
           </div>

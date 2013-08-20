@@ -49,7 +49,7 @@
 
               <div class="form-actions">
                 <button class="btn btn-primary" label="Cari" />
-                <button class="btn btn-success" label="Tambah Baru" href="master_data_inventory_tambah.zul" />
+                <button class="btn btn-success" label="Tambah Baru" href="permintaan_dan_pembelian_barang_tambah.zul" />
               </div>
               
           </div>
@@ -62,10 +62,10 @@
           <div sclass="row-fluid subcontent">
 		    <grid>
 		        <columns>
-		            <column hflex="1">Kode Barang</column>
-		            <column hflex="1">Nama Barang</column>
-		            <column hflex="1">Merk</column>
-		            <column hflex="1">Tipe</column>
+		            <column hflex="1">No. Transaksi</column>
+		            <column hflex="1">Tanggal Transaksi</column>
+		            <column hflex="1">Keterangan</column>
+		            <column hflex="1">Status</column>
 		            <column hflex="1">No. Part</column>
 		            <column hflex="1">Operations</column>
 		        </columns>
