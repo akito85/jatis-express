@@ -126,7 +126,7 @@
 		                <label value="John" />
 		                <label value="Doe" />
 						<div>
-			                <a href="#"><x:i sclass="icon-pencil"></x:i></a>
+			                <button sclass="btn btn-danger" />
 			                <a href="#"><x:i sclass="icon-remove"></x:i></a>
 		                </div>
 		            </row>		
