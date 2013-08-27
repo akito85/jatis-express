@@ -140,7 +140,7 @@
 			  <div sclass="row">
 	              <div sclass="control-group span5">
 						<label sclass="control-label span2" value="Alamat Domisili"/>
-							<textbox /> <i>test</i>              
+							<textbox />            
 	              </div>
 		              
 	              <div sclass="control-group span5">

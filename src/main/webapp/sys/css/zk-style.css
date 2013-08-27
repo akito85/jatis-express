@@ -88,7 +88,7 @@
 .z-combobox-rounded .z-combobox-rounded-btn, .z-bandbox-rounded .z-bandbox-rounded-btn, .z-datebox-rounded .z-datebox-rounded-btn, .z-timebox-rounded .z-timebox-rounded-btn, .z-spinner-rounded .z-spinner-rounded-btn, .z-doublespinner-rounded .z-doublespinner-rounded-btn {
     cursor: pointer;
     display: inline-block;
-    height: 23px;
+    height: 22px;
     overflow: hidden;
     vertical-align: top;
 }
