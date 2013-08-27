@@ -9,34 +9,34 @@
 	    	<div sclass="span3 unwell_1">
 	    	</div>
 	    	
-	    	<div sclass="span9 unwell_1 subcontent">
-	    	
-				<grid>
-			        <auxhead>
-			            <auxheader colspan="4" label="Contributor of ZK International Message(Part)" />
-			        </auxhead>
-			        <columns>
-			            <column>Language</column>
-			            <column>Contributor</column>
-			            <column>Charset</column>
-			            <column>Comment</column>
-			        </columns>
-			        <rows>
-			            <row>
-			                <label value="Arabic (ar)" />
-			                <label value="Ayman Elgharabawy" />
-			                <label value="iso-8859-6" />
-			                <textbox />
-			            </row>
-			            <row>
-			                <label value="Hungarian (hu)" />
-			                <label value="Andreas Klein" />
-			                <label value="iso-8859-2" />
-			                <textbox />
-			            </row>
-			        </rows>
-			    </grid>
-
+	    	<div sclass="span9 unwell_2 content">
+	    		<div sclass="row-fluid">
+					<grid>
+				        <auxhead>
+				            <auxheader colspan="4" label="Contributor of ZK International Message(Part)" />
+				        </auxhead>
+				        <columns>
+				            <column>Language</column>
+				            <column>Contributor</column>
+				            <column>Charset</column>
+				            <column>Comment</column>
+				        </columns>
+				        <rows>
+				            <row>
+				                <label value="Arabic (ar)" />
+				                <label value="Ayman Elgharabawy" />
+				                <label value="iso-8859-6" />
+				                <textbox />
+				            </row>
+				            <row>
+				                <label value="Hungarian (hu)" />
+				                <label value="Andreas Klein" />
+				                <label value="iso-8859-2" />
+				                <textbox />
+				            </row>
+				        </rows>
+				    </grid>
+				</div>
 
 			    	    	
 	    	</div>
