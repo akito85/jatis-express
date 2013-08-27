@@ -86,19 +86,23 @@
 .z-datebox-rounded-inp { background-image: none !important; font-size: 11px !important; }
 
 .z-combobox-rounded .z-combobox-rounded-btn, .z-bandbox-rounded .z-bandbox-rounded-btn, .z-datebox-rounded .z-datebox-rounded-btn, .z-timebox-rounded .z-timebox-rounded-btn, .z-spinner-rounded .z-spinner-rounded-btn, .z-doublespinner-rounded .z-doublespinner-rounded-btn {
-    background-position: 0 -120px;
-    height: 19px;
-    width: 24px;
-    background: url("/jatisexpress/zkau/web/b4b2ff8/zul/img/input/combobtn.gif") no-repeat scroll 0 -1px transparent !important;
-    border-style: solid solid solid none;
-    border-width: 1px 1px 1px 0;
     cursor: pointer;
     display: inline-block;
-    height: 19px;
+    height: 23px;
     overflow: hidden;
     vertical-align: top;
-    width: 18px;
-    border-color: #B2B2B2 #E6E6E6 #E6E6E6 -moz-use-text-color;
+}
+
+.z-combobox-rounded .z-combobox-rounded-btn-over, .z-bandbox-rounded .z-bandbox-rounded-btn-over, .z-datebox-rounded .z-datebox-rounded-btn-over, .z-timebox-rounded .z-timebox-rounded-btn-over, .z-spinner-rounded .z-spinner-rounded-btn-over, .z-doublespinner-rounded .z-doublespinner-rounded-btn-over
+{
+
+}
+.z-datebox-rounded .z-datebox-rounded-btn {
+	position: relative !important;
+	left: -24px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px
 
 }
 
