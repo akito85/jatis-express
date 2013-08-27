@@ -18,6 +18,10 @@
     font-weight: 700;
 }
 
+.z-page {
+	height: auto !important;
+	width: auto !important;
+}
 
 .z-label, .z-radio-cnt, .z-checkbox-cnt, .z-loading,
 .z-tabbox-accordion, .z-tabpanel-accordion,

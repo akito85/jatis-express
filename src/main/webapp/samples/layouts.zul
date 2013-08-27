@@ -1,0 +1,119 @@
+<?page title="LAYOUTS" contentType="text/html;charset=UTF-8"?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+
+<zk xmlns:x="xhtml" xmlns:zk="zk">
+
+    <div sclass="container-fluid">
+	    <div sclass="row-fluid">
+	    	<div sclass="span12 unwell_2">
+	    		<x:h3>This is span12 [BUKAN NESTED SPAN]</x:h3>
+	    	</div>
+	    </div>
+
+	    <div sclass="row-fluid">
+	    	<div sclass="span6 unwell_2">
+	    		<x:h3>span6 [BUKAN NESTED SPAN]</x:h3>
+	    	</div>
+	    	<div sclass="span6 unwell_2">
+	    		<x:h3>span6 [BUKAN NESTED SPAN]</x:h3>
+	    	</div>
+	    </div>
+	    
+	    <div sclass="row-fluid">
+	        <div sclass="span3 unwell_2">
+				<x:h5>span3 [BUKAN NESTED SPAN]</x:h5>
+				
+				<x:h4>NESTED SPAN DI DALAM SPAN3</x:h4>
+	          	<div sclass="row-fluid">
+					<div sclass="span12 unwell_1"><x:h5>span12 {max} {based on percentages}</x:h5></div>
+	         	</div><!-- end sub-content --> 				
+			</div>
+	
+	        <div sclass="span9 unwell_2">
+	            <x:h3>span9 [BUKAN NESTED SPAN]</x:h3>
+	            
+	            <x:h4>NESTED SPAN DI DALAM SPAN9</x:h4>
+	
+	          	<div sclass="row-fluid">
+					<div sclass="span12 unwell_1"><x:h5>span12 {max} {based on percentages}</x:h5></div>
+	         	</div><!-- end sub-content -->         	
+	         	
+	          	<div sclass="row-fluid">
+					<div sclass="span11 unwell_1"><x:h5>span11 {based on percentages}</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+	         	</div><!-- end sub-content -->    
+	
+	          	<div sclass="row-fluid">
+					<div sclass="span10 unwell_1"><x:h5>span10 {based on percentages}</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+	         	</div><!-- end sub-content -->    
+	
+	          	<div sclass="row-fluid">
+					<div sclass="span9 unwell_1"><x:h5>span9 {based on percentages}</x:h5></div>
+					<div sclass="span3 unwell_1"><x:h5>span3</x:h5></div>
+	         	</div><!-- end sub-content -->    
+	         	
+	          	<div sclass="row-fluid">
+					<div sclass="span8 unwell_1"><x:h5>span8 {based on percentages}</x:h5></div>
+					<div sclass="span4 unwell_1"><x:h5>span4</x:h5></div>
+	         	</div><!-- end sub-content -->  
+	         	
+	          	<div sclass="row-fluid">
+					<div sclass="span7 unwell_1"><x:h5>span7 {based on percentages}</x:h5></div>
+					<div sclass="span5 unwell_1"><x:h5>span5</x:h5></div>
+	         	</div><!-- end sub-content -->           	
+
+	          	<div sclass="row-fluid">
+					<div sclass="span6 unwell_1"><x:h5>span6 {based on percentages}</x:h5></div>
+					<div sclass="span6 unwell_1"><x:h5>span6</x:h5></div>
+	         	</div><!-- end sub-content -->
+	
+	          	<div sclass="row-fluid">
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>				
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>				
+					<div sclass="span1 unwell_1"><x:h5>span1</x:h5></div>
+	         	</div><!-- end sub-content -->         	
+	         	
+	         	<div sclass="row-fluid">
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2</x:h5></div>
+					<div sclass="span2 unwell_1"><x:h5>span2s</x:h5></div>
+				</div>
+				
+	          	<div sclass="row-fluid">
+					<div sclass="span3 unwell_1"><x:h5>span3</x:h5></div>
+					<div sclass="span3 unwell_1"><x:h5>span3</x:h5></div>
+					<div sclass="span3 unwell_1"><x:h5>span3</x:h5></div>
+					<div sclass="span3 unwell_1"><x:h5>span3</x:h5></div>
+	         	</div><!-- end sub-content --> 
+	         	
+	          	<div sclass="row-fluid">
+	          		<div sclass="span4 unwell_1"><x:h5>span4</x:h5></div>
+					<div sclass="span4 offset4 unwell_1"><x:h5>span4 offset4</x:h5></div>
+	         	</div><!-- end sub-content -->
+	         	
+	          	<div sclass="row-fluid">
+	          		<div sclass="span3 offset3 unwell_1"><x:h5>span3 offset3</x:h5></div>
+					<div sclass="span3 offset3 unwell_1"><x:h5>span3 offset3</x:h5></div>
+	         	</div><!-- end sub-content --> 	         	 	         	
+
+	          	<div sclass="row-fluid">
+					<div sclass="span6 offset6 unwell_1"><x:h5>span6 offset6</x:h5></div>
+	         	</div><!-- end sub-content --> 	         	         	         	
+	       </div><!-- end main-content -->
+		</div>
+	</div><!-- end container -->
+</zk>

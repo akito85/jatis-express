@@ -218,3 +218,35 @@ span { font-size: 12px; }
 
 .controls span { padding-bottom: 10px; font-size: 10px; }
 
+.unwell_1 {
+    background-color: #F5F5F5;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+}
+
+.unwell_2 {
+    background-color: #fff;
+    border: 1px solid #E3E3E3;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
+    margin-bottom: 20px;
+    min-height: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
