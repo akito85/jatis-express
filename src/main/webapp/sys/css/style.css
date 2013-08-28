@@ -228,6 +228,12 @@ span { font-size: 12px; }
 
 .help-inline { padding-top: 5px; }
 
+/* fix border radius while adding append */
+.input-append .add-on, .input-prepend .add-on, .input-append .btn, .input-prepend .btn, .input-append .btn-group > .dropdown-toggle, .input-prepend .btn-group > .dropdown-toggle {
+    border-radius: 0 4px 4px 0;
+    vertical-align: top;
+}
+
 .unwell_1 {
     background-color: #F5F5F5;
     border: 1px solid #E3E3E3;
