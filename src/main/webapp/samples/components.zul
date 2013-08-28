@@ -83,13 +83,13 @@
 
                 <x:h4>textbox dan label</x:h4>
                 <x:h4>grouping components</x:h4>
-				<div sclass="controls controls-row unwell_1">
+				<div sclass="controls controls-row">
 				      <label sclass="span6 unwell_1" value="LABEL WITH SPAN6"/>
 				          <textbox sclass="span6" value="TEXTBOX WITH SPAN6"/>
 				</div>
 
                 <x:h4>grouping components</x:h4>
-                <div sclass="controls controls-row unwell_1">
+                <div sclass="controls controls-row">
                       <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
@@ -97,52 +97,156 @@
                 </div>
 
                 <x:h4>grouping components</x:h4>
-                <div sclass="controls controls-row unwell_1">
+                <div sclass="controls controls-row">
                     <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                     <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                 </div>
-                <div sclass="controls controls-row unwell_1">
+                <div sclass="controls controls-row">
                     <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
                           <textbox sclass="span4" value="TEXTBOX SPAN4"/>
                     <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
                           <textbox sclass="span4" value="TEXTBOX SPAN4"/>
                 </div>
                 
-                <x:br/>
-                <x:br/>
-                <x:h4>textbox and span</x:h4>
-                <x:h4>extending with add-on</x:h4>
+                <div sclass="controls controls-row">
+                    <x:br/>
+                    <x:h4>span and textbox</x:h4>
+                    <x:h4>add-on input-append input-prepend</x:h4>
+                </div>
                 
                 <div sclass="controls">
-					<div sclass="span6 input-prepend">
-						<x:span sclass="add-on">@</x:span>
-						<textbox sclass="span6" />
-						<x:span class="help-inline">Inline help text</x:span>
-					</div>                
+					<div sclass="span12 input-prepend">
+						<x:span sclass="add-on span11">span11</x:span>
+						<textbox sclass="span1" value="textbox span1"/>
+					</div>                                   
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span10">span10</x:span>
+                        <textbox sclass="span2" value="textbox span2"/>
+                    </div>                                   
+                </div>
+                
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span9">span9</x:span>
+                        <textbox sclass="span3" value="textbox span3"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span8">span8</x:span>
+                        <textbox sclass="span4" value="textbox span4"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span7">span7</x:span>
+                        <textbox sclass="span5" value="textbox span5"/>
+                    </div>                                   
+                </div>                
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span6">span7</x:span>
+                        <textbox sclass="span6" value="textbox span5"/>
+                    </div>                                   
+                </div>
+                
+                <div sclass="controls controls-row">
+                    <x:h4>example</x:h4>
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span6 input-prepend">
+                        <x:span sclass="add-on">$$$$$$</x:span>
+                        <textbox sclass="span5"/>
+                    </div>                                   
 
                     <div sclass="span6 input-prepend">
-                        <x:span sclass="add-on">Local number</x:span>
-                        <textbox sclass="span6" />
-                    </div>                     
+                        <x:span sclass="add-on">@</x:span>
+                        <textbox sclass="span5"/>
+                    </div>
+                </div>                   
+
+                <div sclass="controls">
+                    <div sclass="span6 input-append">
+                        <textbox sclass="span5"/>
+                        <x:span sclass="add-on">.00000</x:span>
+                    </div>
+                                                   
+                    <div sclass="span6 input-append">
+                        <textbox sclass="span5"/>
+                        <x:span sclass="add-on">.000</x:span>
+                    </div>
+                </div> 
+
+                <div sclass="controls">
+                    <div sclass="span6 input-prepend input-append">
+                        <x:span sclass="add-on">.00000</x:span>
+                        <textbox sclass="span5"/>
+                        <x:span sclass="add-on">.00000</x:span>
+                    </div>                                   
+                    <div sclass="span6 input-prepend input-append">
+                        <x:span sclass="add-on">.00000</x:span>
+                        <textbox sclass="span5"/>
+                        <x:span sclass="add-on">.000</x:span>
+                    </div>
+                </div> 
+                
+                <div sclass="controls controls-row">
+                    <x:br/>
+                    <x:h4>span and button</x:h4>
+                    <x:h4>add-on input-append input-prepend</x:h4>
                 </div>
                 
                 <div sclass="controls">
-                    <div sclass="span6 input-append">
-                        <textbox sclass="span6" />
-                        <x:span sclass="add-on">testtt</x:span>
-                        <label sclass="help-inline" value="wtf ZK WHY YOU HAVE NO NATIVE SPAN"/>
-                    </div>                
-
-                    <div sclass="span6 input-append">
-                        <textbox sclass="span6" />
-                        <x:span sclass="add-on">Local number</x:span>
-                    </div> 
-                    
+                    <div sclass="span12 input-prepend">
+                        <button sclass="add-on span11 btn" label="span11 button"/>
+                        <textbox sclass="span1" value="textbox span1"/>
+                    </div>                                   
                 </div>
 
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span10">span10</x:span>
+                        <textbox sclass="span2" value="textbox span2"/>
+                    </div>                                   
+                </div>
                 
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span9">span9</x:span>
+                        <textbox sclass="span3" value="textbox span3"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span8">span8</x:span>
+                        <textbox sclass="span4" value="textbox span4"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span7">span7</x:span>
+                        <textbox sclass="span5" value="textbox span5"/>
+                    </div>                                   
+                </div>                
+
+                <div sclass="controls">
+                    <div sclass="span12 input-prepend">
+                        <x:span sclass="add-on span6">span7</x:span>
+                        <textbox sclass="span6" value="textbox span5"/>
+                    </div>                                   
+                </div>
+
 	       </div><!-- end span9 -->
 	    </div><!-- end main-content -->
 	</div><!-- end container -->

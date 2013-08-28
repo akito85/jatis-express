@@ -240,6 +240,7 @@ span { font-size: 12px; }
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     min-height: 20px;
+    margin-bottom: 20px;
 }
 
 .unwell_2 {
@@ -248,10 +249,14 @@ span { font-size: 12px; }
     border-radius: 4px 4px 4px 4px;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     min-height: 20px;
+    margin-bottom: 20px;
+    
 }
 
-
-
+/* fix for chrome */
+.input-prepend .add-on, .input-prepend .btn {
+    margin-right: -2px;
+}
 
 
 
