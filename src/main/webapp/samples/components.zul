@@ -34,39 +34,116 @@
 				                <label value="iso-8859-2" />
 				                <textbox />
 				            </row>
+                            <row>
+                                <label value="Arabic (ar)" />
+                                <label value="Ayman Elgharabawy" />
+                                <label value="iso-8859-6" />
+                                <textbox />
+                            </row>
+                            <row>
+                                <label value="Hungarian (hu)" />
+                                <label value="Andreas Klein" />
+                                <label value="iso-8859-2" />
+                                <textbox />
+                            </row>
 				        </rows>
 				    </grid>
+				</div><!-- end row-fluid -->
+				
+				<x:br/>
+				<x:br/>
+				
+				<div sclass="controls controls-row">
+				    <x:h4>textbox with span [MARGIN LEFT TEXTBOX TIDAK SAMA DENGAN MARGIN LEFT DIV]</x:h4>
+				    <x:h4>menggunakan class "controls controls-row" agar komponen spacingnya rata</x:h4>
+				    <textbox value="span12" sclass="span12" />
+				</div>
+				
+				<div sclass="controls controls-row">
+                    <textbox value="span11" sclass="span11" />
+                    <textbox value="span1" sclass="span1" />
+ 				</div>
+                <div sclass="controls controls-row">
+                    <textbox value="span10" sclass="span10" />
+					<textbox value="span1" sclass="span1" />
+					<textbox value="span1" sclass="span1" />
+
+                </div>
+                <div sclass="controls controls-row">
+                    <textbox value="span9" sclass="span9" />
+                    <textbox value="span2" sclass="span2" />
+                    <textbox value="span1" sclass="span1" />
+                </div>
+                <div sclass="controls controls-row">
+                    <textbox value="span3" sclass="span3" />
+                    <textbox value="span6" sclass="span6" />
+                    <textbox value="span3" sclass="span3" />
+                </div>
+                <x:br/>
+
+                <x:h4>textbox dan label</x:h4>
+                <x:h4>grouping components</x:h4>
+				<div sclass="controls controls-row unwell_1">
+				      <label sclass="span6 unwell_1" value="LABEL WITH SPAN6"/>
+				          <textbox sclass="span6" value="TEXTBOX WITH SPAN6"/>
 				</div>
 
-	    	<div sclass="span9 unwell_1 subcontent">
-	    	
-				<grid>
-			        <auxhead>
-			            <auxheader colspan="4" label="Contributor of ZK International Message(Part)" />
-			        </auxhead>
-			        <columns>
-			            <column>Language</column>
-			            <column>Contributor</column>
-			            <column>Charset</column>
-			            <column>Comment</column>
-			        </columns>
-			        <rows>
-			            <row>
-			                <label value="Arabic (ar)" />
-			                <label value="Ayman Elgharabawy" />
-			                <label value="iso-8859-6" />
-			                <textbox />
-			            </row>
-			            <row>
-			                <label value="Hungarian (hu)" />
-			                <label value="Andreas Klein" />
-			                <label value="iso-8859-2" />
-			                <textbox />
-			            </row>
-			        </rows>
-			    </grid>
-			    	    	
-	    	</div>
-	    </div>
+                <x:h4>grouping components</x:h4>
+                <div sclass="controls controls-row unwell_1">
+                      <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                          <textbox sclass="span3" value="TEXTBOX SPAN3"/>
+                          <textbox sclass="span3" value="TEXTBOX SPAN3"/>
+                          <textbox sclass="span3" value="TEXTBOX SPAN3"/>
+                </div>
+
+                <x:h4>grouping components</x:h4>
+                <div sclass="controls controls-row unwell_1">
+                    <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                          <textbox sclass="span3" value="TEXTBOX SPAN3"/>
+                    <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                          <textbox sclass="span3" value="TEXTBOX SPAN3"/>
+                </div>
+                <div sclass="controls controls-row unwell_1">
+                    <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
+                          <textbox sclass="span4" value="TEXTBOX SPAN4"/>
+                    <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
+                          <textbox sclass="span4" value="TEXTBOX SPAN4"/>
+                </div>
+                
+                <x:br/>
+                <x:br/>
+                <x:h4>textbox and span</x:h4>
+                <x:h4>extending with add-on</x:h4>
+                
+                <div sclass="controls">
+					<div sclass="span6 input-prepend">
+						<x:span sclass="add-on">@</x:span>
+						<textbox sclass="span6" />
+						<x:span class="help-inline">Inline help text</x:span>
+					</div>                
+
+                    <div sclass="span6 input-prepend">
+                        <x:span sclass="add-on">Local number</x:span>
+                        <textbox sclass="span6" />
+                    </div>                     
+                </div>
+                
+                <div sclass="controls">
+                    <div sclass="span6 input-append">
+                        <textbox sclass="span6" />
+                        <x:span sclass="add-on">testtt</x:span>
+                        <label sclass="help-inline" value="wtf ZK WHY YOU HAVE NO NATIVE SPAN"/>
+                    </div>                
+
+                    <div sclass="span6 input-append">
+                        <textbox sclass="span6" />
+                        <x:span sclass="add-on">Local number</x:span>
+                    </div> 
+                    
+                </div>
+
+                
+	       </div><!-- end span9 -->
+	    </div><!-- end main-content -->
 	</div><!-- end container -->
 </zk>
