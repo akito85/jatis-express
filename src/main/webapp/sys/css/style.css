@@ -253,9 +253,9 @@ span { font-size: 12px; }
     
 }
 
-/* fix for chrome */
+/* fix for chrome add margin to -2px */
 .input-prepend .add-on, .input-prepend .btn {
-    margin-right: -2px;
+    margin-right: -1px;
 }
 
 

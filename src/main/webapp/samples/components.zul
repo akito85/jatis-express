@@ -1,6 +1,6 @@
 <?page title="COMPONENTS" contentType="text/html;charset=UTF-8"?>
-<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
-<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+<?script type="text/javascript" src="../sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="../sys/includes/jquery/jquery-2.0.2.min.js"?>
 
 <zk xmlns:x="xhtml" xmlns:zk="zk">
 
@@ -50,12 +50,12 @@
 				    </grid>
 				</div><!-- end row-fluid -->
 				
-				<x:br/>
-				<x:br/>
-				
+                <div sclass="controls controls-row">
+                    <x:br/>
+                    <x:h4>textbox</x:h4>
+                    <x:h4>distribute evently margin with "controls-row"</x:h4>
+                </div>				
 				<div sclass="controls controls-row">
-				    <x:h4>textbox with span [MARGIN LEFT TEXTBOX TIDAK SAMA DENGAN MARGIN LEFT DIV]</x:h4>
-				    <x:h4>menggunakan class "controls controls-row" agar komponen spacingnya rata</x:h4>
 				    <textbox value="span12" sclass="span12" />
 				</div>
 				
@@ -79,34 +79,44 @@
                     <textbox value="span6" sclass="span6" />
                     <textbox value="span3" sclass="span3" />
                 </div>
+                <div sclass="row-fluid"><x:h4>variasi input non-span</x:h4></div>
+			    <div sclass="row-fluid"><textbox sclass="input-mini" value=".input-mini" /></div>
+			    <div sclass="row-fluid"><textbox sclass="input-small" value=".input-small" /></div>
+			    <div sclass="row-fluid"><textbox sclass="input-medium" value=".input-medium" /></div>
+			    <div sclass="row-fluid"><textbox sclass="input-large" value=".input-large" /></div>
+			    <div sclass="row-fluid"><textbox sclass="input-xlarge" value=".input-xlarge" /></div>
+			    <div sclass="row-fluid"><textbox sclass="input-xxlarge" value=".input-xxlarge" /></div>
+			                    
                 <x:br/>
 
-                <x:h4>textbox dan label</x:h4>
-                <x:h4>grouping components</x:h4>
+                <div sclass="row-fluid">
+                    <x:h4>textbox dan label</x:h4>
+                    <x:h4>grouping components</x:h4>
+                </div>
 				<div sclass="controls controls-row">
-				      <label sclass="span6 unwell_1" value="LABEL WITH SPAN6"/>
+				      <label sclass="span6" value="LABEL WITH SPAN6"/>
 				          <textbox sclass="span6" value="TEXTBOX WITH SPAN6"/>
 				</div>
 
-                <x:h4>grouping components</x:h4>
+                <div sclass="row-fluid"><x:h4>grouping components</x:h4></div>
                 <div sclass="controls controls-row">
-                      <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                      <label sclass="span3" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                 </div>
 
-                <x:h4>grouping components</x:h4>
+                <div sclass="row-fluid"><x:h4>grouping components</x:h4></div>
                 <div sclass="controls controls-row">
-                    <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                    <label sclass="span3" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
-                    <label sclass="span3 unwell_1" value="LABEL WITH SPAN3"/>
+                    <label sclass="span3" value="LABEL WITH SPAN3"/>
                           <textbox sclass="span3" value="TEXTBOX SPAN3"/>
                 </div>
                 <div sclass="controls controls-row">
-                    <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
+                    <label sclass="span2" value="LABEL WITH SPAN2"/>
                           <textbox sclass="span4" value="TEXTBOX SPAN4"/>
-                    <label sclass="span2 unwell_1" value="LABEL WITH SPAN2"/>
+                    <label sclass="span2" value="LABEL WITH SPAN2"/>
                           <textbox sclass="span4" value="TEXTBOX SPAN4"/>
                 </div>
                 
@@ -116,45 +126,52 @@
                     <x:h4>add-on input-append input-prepend</x:h4>
                 </div>
                 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
 					<div sclass="span12 input-prepend">
-						<x:span sclass="add-on span11">span11</x:span>
+						<label sclass="add-on span11" value="span11" />
 						<textbox sclass="span1" value="textbox span1"/>
 					</div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span10">span10</x:span>
+                        <label sclass="add-on span10" value="span10" />
                         <textbox sclass="span2" value="textbox span2"/>
                     </div>                                   
                 </div>
                 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span9">span9</x:span>
+                        <label sclass="add-on span9" value="span9" />
                         <textbox sclass="span3" value="textbox span3"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span8">span8</x:span>
+                        <label sclass="add-on span8" value="span8" />
                         <textbox sclass="span4" value="textbox span4"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span7">span7</x:span>
+                        <label sclass="add-on span7" value="span7" />
                         <textbox sclass="span5" value="textbox span5"/>
                     </div>                                   
                 </div>                
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span6">span7</x:span>
-                        <textbox sclass="span6" value="textbox span5"/>
+                        <label sclass="add-on span6" value="span6" />
+                        <textbox sclass="span6" value="textbox span6"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls row-fluid">
+                    <div sclass="span12 input-append">
+                        <textbox sclass="span6" value="textbox span6"/>
+                        <label sclass="add-on" value="no span" />
                     </div>                                   
                 </div>
                 
@@ -162,88 +179,134 @@
                     <x:h4>example</x:h4>
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span6 input-prepend">
-                        <x:span sclass="add-on">$$$$$$</x:span>
+                        <label sclass="add-on" value="#" />
                         <textbox sclass="span5"/>
                     </div>                                   
 
                     <div sclass="span6 input-prepend">
-                        <x:span sclass="add-on">@</x:span>
+                        <label sclass="add-on" value="#" />
                         <textbox sclass="span5"/>
                     </div>
                 </div>                   
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span6 input-append">
                         <textbox sclass="span5"/>
-                        <x:span sclass="add-on">.00000</x:span>
+                        <label sclass="add-on" value="#" />
                     </div>
                                                    
                     <div sclass="span6 input-append">
                         <textbox sclass="span5"/>
-                        <x:span sclass="add-on">.000</x:span>
+                        <label sclass="add-on" value="#" />
                     </div>
                 </div> 
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span6 input-prepend input-append">
-                        <x:span sclass="add-on">.00000</x:span>
+                        <label sclass="add-on" value="#" />
                         <textbox sclass="span5"/>
-                        <x:span sclass="add-on">.00000</x:span>
+                        <label sclass="add-on" value="#" />
                     </div>                                   
                     <div sclass="span6 input-prepend input-append">
-                        <x:span sclass="add-on">.00000</x:span>
+                        <label sclass="add-on" value="#" />
                         <textbox sclass="span5"/>
-                        <x:span sclass="add-on">.000</x:span>
+                        <label sclass="add-on" value="#" />
                     </div>
                 </div> 
                 
                 <div sclass="controls controls-row">
                     <x:br/>
                     <x:h4>span and button</x:h4>
-                    <x:h4>add-on input-append input-prepend</x:h4>
+                    <x:h4>input-append input-prepend</x:h4>
                 </div>
                 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="add-on span11 btn" label="span11 button"/>
+                        <button sclass="span11 btn" label="span11 button"/>
                         <textbox sclass="span1" value="textbox span1"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span10">span10</x:span>
+                        <button sclass="span10 btn" label="span10 button"/>
                         <textbox sclass="span2" value="textbox span2"/>
                     </div>                                   
                 </div>
                 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span9">span9</x:span>
+                        <button sclass="span9 btn" label="span9 button"/>
                         <textbox sclass="span3" value="textbox span3"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span8">span8</x:span>
+                        <button sclass="span8 btn" label="span8 button"/>
                         <textbox sclass="span4" value="textbox span4"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span7">span7</x:span>
+                        <button sclass="span7 btn" label="span7 button"/>
                         <textbox sclass="span5" value="textbox span5"/>
                     </div>                                   
                 </div>                
 
-                <div sclass="controls">
+                <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <x:span sclass="add-on span6">span7</x:span>
-                        <textbox sclass="span6" value="textbox span5"/>
+                        <button sclass="span6 btn" label="span6 button"/>
+                        <textbox sclass="span6" value="textbox span6"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls row-fluid">
+                    <div sclass="input-append span12">
+                        <textbox sclass="span6" value="textbox span6"/>
+                        <button sclass="btn" label="no span"/>
+                        <button sclass="btn" label="no span"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls controls-row">
+                    <x:h4>example</x:h4>
+                </div>                
+
+                <div sclass="controls row-fluid">
+                    <div sclass="span12 input-prepend">
+                        <button sclass="span2 btn" label="search" />
+                        <textbox sclass="span6" value="textbox span6"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls row-fluid">
+                    <div sclass="span12 input-append">
+                        <textbox sclass="span2" value="textbox span2"/>
+                        <button sclass="btn" label="no span"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls row-fluid">
+                    <div sclass="span12 input-prepend input-append">
+                        <button sclass="span4 btn" label="span4"/>
+                        <textbox sclass="span2" value="textbox span2"/>
+                        <button sclass="btn" label="no span"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls row-fluid">
+                    <div sclass="span6 input-prepend">
+                        <button sclass="span2 btn" label="search" />
+                        <textbox sclass="span6" value="textbox span6"/>
+                    </div>                                   
+
+                    <div sclass="span6 input-append">
+                        <textbox sclass="span6" value="textbox span6"/>
+                        <button sclass="btn" label="no span"/>
                     </div>                                   
                 </div>
 
