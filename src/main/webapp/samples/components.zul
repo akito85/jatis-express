@@ -86,6 +86,9 @@
 			    <div sclass="row-fluid"><textbox sclass="input-large" value=".input-large" /></div>
 			    <div sclass="row-fluid"><textbox sclass="input-xlarge" value=".input-xlarge" /></div>
 			    <div sclass="row-fluid"><textbox sclass="input-xxlarge" value=".input-xxlarge" /></div>
+			    
+			    <div sclass="row-fluid"><x:h4>uneditable textbox</x:h4></div>
+			    <div sclass="row-fluid"><label sclass="input-xlarge uneditable-input" value="you cannot edit this" /></div>
 			                    
                 <x:br/>
 
@@ -307,6 +310,18 @@
                     <div sclass="span6 input-append">
                         <textbox sclass="span6" value="textbox span6"/>
                         <button sclass="btn" label="no span"/>
+                    </div>                                   
+                </div>
+
+                <div sclass="controls controls-row">
+                    <div sclass="span6">
+                        <button sclass="span2 btn" label="search" />
+                        <textbox sclass="span4" value="textbox span6"/>
+                    </div>                                   
+
+                    <div sclass="span6">
+                        <textbox sclass="span4" value="textbox span6"/>
+                        <button sclass="span2 btn" label="search"/>
                     </div>                                   
                 </div>
 
