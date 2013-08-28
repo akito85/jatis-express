@@ -122,6 +122,7 @@
 						<label sclass="control-label span2" value="Tanggal Berlaku KTP"/>
 							<datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
 	              </div>
+                  
 	          </div>
               	                      
 			  <div sclass="row">
@@ -139,7 +140,7 @@
 			  <div sclass="row">
 	              <div sclass="control-group span5">
 						<label sclass="control-label span2" value="Alamat Domisili"/>
-							<textbox />              
+							<textbox /> <i>test</i>              
 	              </div>
 		              
 	              <div sclass="control-group span5">
