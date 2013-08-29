@@ -86,11 +86,13 @@ input[type="text"] {
 }
 */
 
+/*
 select {
 	border-radius: 0px !important;
 	height: 22px !important;
 	line-height: 22px !important;
 }
+*/
 
 /*i { margin-left: 10px; }*/
 span { font-size: 12px; }
@@ -258,7 +260,44 @@ span { font-size: 12px; }
     margin-right: -1px;
 }
 
+.panel-default { margin-bottom: 5px; }
 
+.panel-default .z-groupbox-header {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(66, 139, 202) !important;
+    border-color: rgb(66, 139, 202) !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid transparent !important;
+    border-top-right-radius: 3px !important;
+    border-top-left-radius: 3px !important;
+}
+
+.panel-default .z-caption-cnt .z-label {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    font-size: 16px !important;	
+}
+
+.panel-default .z-groupbox-cnt {
+	border-color: rgb(66, 139, 202) !important;
+	margin-bottom: 20px !important;
+	background-color: rgb(255, 255, 255) !important;
+	border: 1px solid transparent;
+	border-radius: 0 0 4px 4px !important;
+	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) !important;	
+}
+
+.panel-default .z-groupbox-hr {
+	position: relative !important;
+	top: 8px !important;
+	border: none !important;
+	border-bottom: 0 !important;	
+}
+
+.panel-default .z-label,
+.panel-default .z-caption-cnt {
+	background-color: transparent !important;
+}
 
 
 

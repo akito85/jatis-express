@@ -138,6 +138,11 @@ tr.z-row td.z-row-inner, tr.z-row .z-cell {
 	line-height: 20px;
 }
 
+.z-row-cnt input[type="text"] {
+	margin-bottom: 0 !important;
+}
+
+
 .z-tree, .z-tree-body {
     background: transparent !important;
     border: none !important;
