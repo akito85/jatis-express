@@ -6,16 +6,16 @@
 
     <div sclass="container-fluid">
 	    <div sclass="row-fluid">
-	    	<div sclass="span12 unwell_1 text-center">
+	    	<div sclass="span12 unwell_2 text-center">
 	    		<x:h3>span12 [BUKAN NESTED SPAN]</x:h3>
 	    	</div>
 	    </div>
 
 	    <div sclass="row-fluid">
-	    	<div sclass="span6 unwell_1 text-center">
+	    	<div sclass="span6 unwell_2 text-center">
 	    		<x:h3>span6 [BUKAN NESTED SPAN]</x:h3>
 	    	</div>
-	    	<div sclass="span6 unwell_1 text-center">
+	    	<div sclass="span6 unwell_2 text-center">
 	    		<x:h3>span6 [BUKAN NESTED SPAN]</x:h3>
 	    	</div>
 	    </div>
@@ -26,7 +26,12 @@
 				
 				<x:h4>NESTED SPAN DI DALAM SPAN3</x:h4>
 	          	<div sclass="row-fluid">
-					<div sclass="span12 unwell_1"><x:h5>span12 {max} {based on percentages}</x:h5></div>
+					<div sclass="span12 unwell_1">
+						<x:h5>span12 {max} {based on percentages}</x:h5>
+						<div sclass="row-fluid">
+							<div sclass="span6 unwell_3"><x:h5>span6</x:h5></div><div sclass="span6 unwell_3"><x:h5>span6</x:h5></div>
+						</div>
+					</div>
 	         	</div><!-- end sub-content --> 				
 			</div>
 	

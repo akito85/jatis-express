@@ -254,6 +254,14 @@ span { font-size: 12px; }
     
 }
 
+.unwell_3 {
+    background-color: #ccc;
+    border-radius: 4px 4px 4px 4px;
+    min-height: 20px;
+    margin-bottom: 20px;
+    
+}
+
 /* fix for chrome add margin to -2px */
 .input-prepend .add-on, .input-prepend .btn {
     margin-right: -1px;

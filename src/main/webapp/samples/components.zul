@@ -6,7 +6,8 @@
 
     <div sclass="container-fluid">
         <div sclass="row-fluid">
-            <div sclass="span3 unwell_1 content" id="#leftMenu">
+            <div sclass="span3 unwell_1 content">
+            
         
             </div>
             
@@ -346,7 +347,36 @@
                             </groupbox>
                             <groupbox sclass="panel-default">
                                 <caption>sub-panel</caption>
-                                Sub groupbox                      
+                                Sub groupbox
+
+								<div sclass="controls controls-row">
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                       	</div> <!-- end sub sub panel group -->                                                                              
+								<div sclass="controls controls-row">
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                            <groupbox sclass="span4 panel-default">
+		                                <caption>sub-panel</caption>
+		                                Sub sub groupbox                      
+		                            </groupbox>
+		                       	</div> <!-- end sub sub panel group -->                                                                              
                             </groupbox>
 
 
