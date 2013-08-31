@@ -5,36 +5,24 @@
 <zk xmlns:x="xhtml" xmlns:zk="zk">
 
     <div sclass="container-fluid">
-    	<div sclass="row-fluid">
-	    	<div sclass="span3 unwell_1 content">
-	    	</div>
-	    	
-	    	<div sclass="span9 unwell_2 content">
-	    		<div sclass="row-fluid">
-	    		    <x:h1>GRID</x:h1>
-					<grid>
-				        <auxhead>
-				            <auxheader colspan="4" label="Table Header" />
-				        </auxhead>
-				        <columns>
-				            <column>Column Header</column>
-				            <column>Column Header</column>
-				            <column>Column Header</column>
-				            <column>Column Header</column>
-				        </columns>
-				        <rows>
-				            <row>
-				                <label value="Row" />
-				                <label value="" />
-				                <label value="" />
-				                <textbox />
-				            </row>
-				            <row>
-				                <label value="Row" />
-				                <label value="" />
-				                <label value="" />
-				                <textbox />
-				            </row>
+        <div sclass="row-fluid">
+            <div sclass="span3 unwell_1 content">
+            </div>
+            
+            <div sclass="span9 unwell_2 content">
+                <div sclass="row-fluid">
+                    <x:h1>GRID</x:h1>
+                    <grid>
+                        <auxhead>
+                            <auxheader colspan="4" label="Table Header" />
+                        </auxhead>
+                        <columns>
+                            <column>Column Header</column>
+                            <column>Column Header</column>
+                            <column>Column Header</column>
+                            <column>Column Header</column>
+                        </columns>
+                        <rows>
                             <row>
                                 <label value="Row" />
                                 <label value="" />
@@ -47,27 +35,39 @@
                                 <label value="" />
                                 <textbox />
                             </row>
-				        </rows>
-				    </grid>
-				</div><!-- end row-fluid -->
-				
+                            <row>
+                                <label value="Row" />
+                                <label value="" />
+                                <label value="" />
+                                <textbox />
+                            </row>
+                            <row>
+                                <label value="Row" />
+                                <label value="" />
+                                <label value="" />
+                                <textbox />
+                            </row>
+                        </rows>
+                    </grid>
+                </div><!-- end row-fluid -->
+                
+
+                <x:br/>
+                <x:h1>TEXTBOX</x:h1>
+                <x:h4>Use .controls .controls-row to space input evenly</x:h4>
+            
                 <div sclass="controls controls-row">
-                    <x:br/>
-                    <x:h1>TEXTBOX</x:h1>
-                    <x:h4>Use .controls .controls-row to space input evenly</x:h4>
-                </div>				
-				<div sclass="controls controls-row">
-				    <textbox value=".span12" sclass="span12" />
-				</div>
-				
-				<div sclass="controls controls-row">
+                    <textbox value=".span12" sclass="span12" />
+                </div>
+                
+                <div sclass="controls controls-row">
                     <textbox value=".span11" sclass="span11" />
                     <textbox value=".span1" sclass="span1" />
- 				</div>
+                </div>
                 <div sclass="controls controls-row">
                     <textbox value=".span10" sclass="span10" />
-					<textbox value=".span1" sclass="span1" />
-					<textbox value=".span1" sclass="span1" />
+                    <textbox value=".span1" sclass="span1" />
+                    <textbox value=".span1" sclass="span1" />
 
                 </div>
                 <div sclass="controls controls-row">
@@ -82,24 +82,24 @@
                 </div>
                 
                 <x:h4>Relative input size</x:h4>
-			    <div sclass="row-fluid"><textbox sclass="input-mini" value=".input-mini" /></div>
-			    <div sclass="row-fluid"><textbox sclass="input-small" value=".input-small" /></div>
-			    <div sclass="row-fluid"><textbox sclass="input-medium" value=".input-medium" /></div>
-			    <div sclass="row-fluid"><textbox sclass="input-large" value=".input-large" /></div>
-			    <div sclass="row-fluid"><textbox sclass="input-xlarge" value=".input-xlarge" /></div>
-			    <div sclass="row-fluid"><textbox sclass="input-xxlarge" value=".input-xxlarge" /></div>
-			    
-			    <div sclass="row-fluid"><x:h4>Uneditable textbox</x:h4></div>
-			    <div sclass="row-fluid"><label sclass="input-xlarge uneditable-input" value=".input-xlarge .uneditable-input" /></div>
-			                    
+                <div sclass="row-fluid"><textbox sclass="input-mini" value=".input-mini" /></div>
+                <div sclass="row-fluid"><textbox sclass="input-small" value=".input-small" /></div>
+                <div sclass="row-fluid"><textbox sclass="input-medium" value=".input-medium" /></div>
+                <div sclass="row-fluid"><textbox sclass="input-large" value=".input-large" /></div>
+                <div sclass="row-fluid"><textbox sclass="input-xlarge" value=".input-xlarge" /></div>
+                <div sclass="row-fluid"><textbox sclass="input-xxlarge" value=".input-xxlarge" /></div>
+                
+                <x:h4>Uneditable textbox</x:h4>
+                <div sclass="row-fluid"><label sclass="input-xlarge uneditable-input" value=".input-xlarge .uneditable-input" /></div>
+                                
                 <x:br/>
 
                 <x:h4>TEXTBOX AND LABEL</x:h4>
                 
-				<div sclass="controls controls-row">
-				      <label sclass="span6" value=".span6"/>
-				          <textbox sclass="span6" value=".span6"/>
-				</div>
+                <div sclass="controls controls-row">
+                      <label sclass="span6" value=".span6"/>
+                          <textbox sclass="span6" value=".span6"/>
+                </div>
 
                 <div sclass="controls controls-row">
                       <label sclass="span3" value=".span3"/>
@@ -120,16 +120,23 @@
                     <label sclass="span2" value=".span2"/>
                           <textbox sclass="span4" value=".span4"/>
                 </div>
+
+                <div sclass="controls controls-row">
+                    <label sclass="span2 text-right" value=".span2 .text-right"/>
+                          <textbox sclass="span4" value=".span4"/>
+                    <label sclass="span2 text-right" value=".span2 .text-right"/>
+                          <textbox sclass="span4" value=".span4"/>
+                </div>
                 
                 <x:br/>
                 <x:h4>TEXTBOX WITH ADD-ON APPEND AND PREPEND</x:h4>
                 <x:h4>Add-on input-append input-prepend</x:h4>
                 
                 <div sclass="controls row-fluid">
-					<div sclass="span12 input-prepend">
-						<label sclass="add-on span11" value=".span11" />
-						<textbox sclass="span1" value=".span1"/>
-					</div>                                   
+                    <div sclass="span12 input-prepend">
+                        <label sclass="add-on span11" value=".span11" />
+                        <textbox sclass="span1" value=".span1"/>
+                    </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
@@ -321,8 +328,8 @@
                 <x:h1>GROUPBOX</x:h1>
 
                 <div sclass="controls row-fluid">
-		            <groupbox sclass="span12 panel-default">
-		                <caption>main panel</caption>
+                    <groupbox sclass="span12 panel-default">
+                        <caption>main panel</caption>
                         <div sclass="row-fluid">
                             <groupbox sclass="panel-default">
                                 <caption>sub-panel</caption>
@@ -339,7 +346,7 @@
 
 
                         </div>
-		            </groupbox>                
+                    </groupbox>                
                 </div>
 
                 <x:h1>LISTBOX</x:h1>
@@ -355,7 +362,7 @@
                 
                 
                 
-	       </div><!-- end span9 -->
-	    </div><!-- end main-content -->
-	</div><!-- end container -->
+           </div><!-- end span9 -->
+        </div><!-- end main-content -->
+    </div><!-- end container -->
 </zk>
