@@ -6,7 +6,8 @@
 
     <div sclass="container-fluid">
         <div sclass="row-fluid">
-            <div sclass="span3 unwell_1 content">
+            <div sclass="span3 unwell_1 content" id="#leftMenu">
+        
             </div>
             
             <div sclass="span9 unwell_2 content">
@@ -93,8 +94,7 @@
                 <div sclass="row-fluid"><label sclass="input-xlarge uneditable-input" value=".input-xlarge .uneditable-input" /></div>
                                 
                 <x:br/>
-
-                <x:h4>TEXTBOX AND LABEL</x:h4>
+                <x:h1>TEXTBOX AND LABEL</x:h1>
                 
                 <div sclass="controls controls-row">
                       <label sclass="span6" value=".span6"/>
@@ -127,9 +127,16 @@
                     <label sclass="span2 text-right" value=".span2 .text-right"/>
                           <textbox sclass="span4" value=".span4"/>
                 </div>
+
+                <div sclass="controls controls-row">
+                    <label sclass="span2 text-center" value=".span2 .text-center"/>
+                          <textbox sclass="span4" value=".span4"/>
+                    <label sclass="span2 text-center" value=".span2 .text-center"/>
+                          <textbox sclass="span4" value=".span4"/>
+                </div>
                 
                 <x:br/>
-                <x:h4>TEXTBOX WITH ADD-ON APPEND AND PREPEND</x:h4>
+                <x:h1>TEXTBOX WITH ADD-ON APPEND AND PREPEND</x:h1>
                 <x:h4>Add-on input-append input-prepend</x:h4>
                 
                 <div sclass="controls row-fluid">
@@ -222,106 +229,104 @@
                     </div>
                 </div> 
                 
-                <x:h4>BUTTON AND TEXT</x:h4>
+                <x:h1>BUTTON AND TEXT</x:h1>
                 <x:h4>Button input-append input-prepend</x:h4>
                 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span11 btn" label="span11 button"/>
-                        <textbox sclass="span1" value="textbox span1"/>
+                        <button sclass="span11 btn" label=".span11 .btn"/>
+                        <textbox sclass="span1" value=".span1"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span10 btn" label="span10 button"/>
-                        <textbox sclass="span2" value="textbox span2"/>
+                        <button sclass="span10 btn" label=".span10 .btn"/>
+                        <textbox sclass="span2" value=".span2"/>
                     </div>                                   
                 </div>
                 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span9 btn" label="span9 button"/>
-                        <textbox sclass="span3" value="textbox span3"/>
+                        <button sclass="span9 btn" label=".span9 .btn"/>
+                        <textbox sclass="span3" value=".span3"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span8 btn" label="span8 button"/>
-                        <textbox sclass="span4" value="textbox span4"/>
+                        <button sclass="span8 btn" label=".span8 .btn"/>
+                        <textbox sclass="span4" value=".span4"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span7 btn" label="span7 button"/>
-                        <textbox sclass="span5" value="textbox span5"/>
+                        <button sclass="span7 btn" label=".span7 .btn"/>
+                        <textbox sclass="span5" value=".span5"/>
                     </div>                                   
                 </div>                
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span6 btn" label="span6 button"/>
-                        <textbox sclass="span6" value="textbox span6"/>
+                        <button sclass="span6 btn" label=".span6 btn"/>
+                        <textbox sclass="span6" value=".span6"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="input-append span12">
-                        <textbox sclass="span6" value="textbox span6"/>
-                        <button sclass="btn" label="no span"/>
-                        <button sclass="btn" label="no span"/>
+                        <textbox sclass="span6" value=".span6"/>
+                        <button sclass="btn" label=".btn (no span)"/>
+                        <button sclass="btn" label=".btn (no span)"/>
                     </div>                                   
                 </div>
 
-                <div sclass="controls controls-row">
-                    <x:h4>example</x:h4>
-                </div>                
+                <x:h4>example</x:h4>            
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend">
-                        <button sclass="span2 btn" label="search" />
-                        <textbox sclass="span6" value="textbox span6"/>
+                        <button sclass="span2 btn" label=".span2 .btn" />
+                        <textbox sclass="span6" value=".span6"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-append">
-                        <textbox sclass="span2" value="textbox span2"/>
-                        <button sclass="btn" label="no span"/>
+                        <textbox sclass="span2" value=".span2"/>
+                        <button sclass="btn" label=".btn (no span)"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span12 input-prepend input-append">
-                        <button sclass="span4 btn" label="span4"/>
-                        <textbox sclass="span2" value="textbox span2"/>
-                        <button sclass="btn" label="no span"/>
+                        <button sclass="span4 btn" label=".span4"/>
+                        <textbox sclass="span2" value=".span2"/>
+                        <button sclass="btn" label=".btn (no span)"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls row-fluid">
                     <div sclass="span6 input-prepend">
-                        <button sclass="span2 btn" label="search" />
-                        <textbox sclass="span6" value="textbox span6"/>
+                        <button sclass="span4 btn" label=".span4 .btn" />
+                        <textbox sclass="span6" value=".span6"/>
                     </div>                                   
 
                     <div sclass="span6 input-append">
-                        <textbox sclass="span6" value="textbox span6"/>
-                        <button sclass="btn" label="no span"/>
+                        <textbox sclass="span6" value=".span6"/>
+                        <button sclass="btn" label=".btn (no span)"/>
                     </div>                                   
                 </div>
 
                 <div sclass="controls controls-row">
                     <div sclass="span6">
-                        <button sclass="span2 btn" label="search" />
-                        <textbox sclass="span4" value="textbox span6"/>
+                        <button sclass="span5 btn" label=".span5 .btn" />
+                        <textbox sclass="span3" value=".span3"/>
                     </div>                                   
 
                     <div sclass="span6">
-                        <textbox sclass="span4" value="textbox span6"/>
-                        <button sclass="span2 btn" label="search"/>
+                        <textbox sclass="span3" value=".span3"/>
+                        <button sclass="span5 btn" label=".span5 .btn"/>
                     </div>                                   
                 </div>
 
@@ -351,16 +356,112 @@
 
                 <x:h1>LISTBOX</x:h1>
                 <div sclass="controls row-fluid">
-                    <listbox mold="select">
-                        <listitem label="Perfect" />
+                    <listbox mold="select" sclass="span12">
+                        <listitem label=".span12" selected="true"/>
+                    </listbox>                
+                </div>
+                <div sclass="controls row-fluid">
+                    <listbox mold="select" sclass="span11">
+                        <listitem label=".span11" selected="true"/>
+                    </listbox>                
+                </div>
+                <div sclass="controls row-fluid">
+                    <listbox mold="select" sclass="span10">
+                        <listitem label=".span10" selected="true"/>
+                    </listbox>                
+                </div>
+
+                <div sclass="controls controls-row">
+                    <listbox mold="select" sclass="span6">
+                        <listitem label=".span6" selected="true"/>
+                    </listbox>                
+
+                    <listbox mold="select" sclass="span6">
+                        <listitem label=".span6" selected="true"/>
+                    </listbox>                
+                </div>
+
+                <div sclass="controls controls-row">
+                    <listbox mold="select" sclass="span4">
+                        <listitem label=".span4" selected="true"/>
+                    </listbox>                
+
+                    <listbox mold="select" sclass="span4">
+                        <listitem label=".span4" selected="true"/>
+                    </listbox>                
+
+                    <listbox mold="select" sclass="span4">
+                        <listitem label=".span4" selected="true"/>
+                    </listbox>
+                </div>
+                                                
+                <div sclass="controls row-fluid">
+                    <listbox>
+                        <listitem label="Perfect"/>
                         <listitem label="High" />
                         <listitem label="Medium" selected="true"/>
                         <listitem label="Low" />
                         <listitem label="Poor" />
                     </listbox>                
                 </div>
-                
-                
+
+				<x:br/>
+                <x:h1 id="btn">BUTTON</x:h1>
+                <div sclass="controls row-fluid">
+		          <x:h4>Default buttons</x:h4>
+		          <x:p>Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.</x:p>
+		          <x:table sclass="table table-bordered table-striped">
+		            <x:thead>
+		              <x:tr>
+		                <x:th>Button</x:th>
+		                <x:th>class=""</x:th>
+		                <x:th>Description</x:th>
+		              </x:tr>
+		            </x:thead>
+		            <x:tbody>
+		              <x:tr>
+		                <x:td><button sclass="btn" label="Default"/></x:td>
+		                <x:td>btn</x:td>
+		                <x:td>Standard gray button with gradient</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-primary" label="Primary"/></x:td>
+		                <x:td>btn btn-primary></x:td>
+		                <x:td>Provides extra visual weight and identifies the primary action in a set of buttons</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-info" label="Info"/></x:td>
+		                <x:td>btn btn-info</x:td>
+		                <x:td>Used as an alternative to the default styles</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-success" label="Success"/></x:td>
+		                <x:td>btn btn-success</x:td>
+		                <x:td>Indicates a successful or positive action</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-warning" label="Warning"/></x:td>
+		                <x:td>btn btn-warning</x:td>
+		                <x:td>Indicates caution should be taken with this action</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-danger" label="Danger"/></x:td>
+		                <x:td>btn btn-danger</x:td>
+		                <x:td>Indicates a dangerous or potentially negative action</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-inverse" label="Inverse"/></x:td>
+		                <x:td>btn btn-inverse</x:td>
+		                <x:td>Alternate dark gray button, not tied to a semantic action or use</x:td>
+		              </x:tr>
+		              <x:tr>
+		                <x:td><button sclass="btn btn-link" label="Link"/></x:td>
+		                <x:td>btn btn-link</x:td>
+		                <x:td>Deemphasize a button by making it look like a link while maintaining button behavior</x:td>
+		              </x:tr>
+		            </x:tbody>
+		          </x:table>                
+                </div>
                 
            </div><!-- end span9 -->
         </div><!-- end main-content -->

@@ -186,11 +186,19 @@ tr.z-row td.z-row-inner, tr.z-row .z-cell {
 	border-radius: 2px 2px 2px 2px !important;
 }
 
+.z-listbox {
+	border-radius: 4px;
+}
 
+.z-listitem-over, .z-listitem-seld {
+	background-image: none !important;
+	background-color: #e5e3e9 !important;
+}
 
-
-
-
+tr.z-listitem-over > td.z-listcell {
+    border-top: 1px solid #fff !important;
+    border-bottom: 1px solid #fff !important;
+}
 
 
 

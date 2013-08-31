@@ -99,6 +99,7 @@ span { font-size: 12px; }
 
 #leftMenu {
     padding: 40px 0 0 0 !important;
+    position: fixed;
 }
 
 #leftMenu .accordion-group {
@@ -240,18 +241,14 @@ span { font-size: 12px; }
 
 .unwell_1 {
     background-color: #F5F5F5;
-    border: 1px solid #E3E3E3;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     min-height: 20px;
     margin-bottom: 20px;
 }
 
 .unwell_2 {
     background-color: #fff;
-    border: 1px solid #E3E3E3;
     border-radius: 4px 4px 4px 4px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) inset;
     min-height: 20px;
     margin-bottom: 20px;
     
@@ -300,8 +297,6 @@ span { font-size: 12px; }
 .panel-default .z-caption-cnt {
 	background-color: transparent !important;
 }
-
-
 
 
 
