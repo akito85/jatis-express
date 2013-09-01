@@ -267,7 +267,7 @@ span { font-size: 12px; }
     margin-right: -1px;
 }
 
-.panel-default { margin-bottom: 5px; }
+.panel-default, .subpanel { margin-bottom: 5px; }
 
 .panel-default .z-groupbox-header {
     color: rgb(255, 255, 255) !important;
@@ -307,9 +307,43 @@ span { font-size: 12px; }
 }
 
 
+.subpanel .z-groupbox-header {
+    color: #3A87AD !important;
+    border-color: #BCE8F1 !important;
+    background-color: #D9EDF7 !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid transparent !important;
+    border-top-right-radius: 3px !important;
+    border-top-left-radius: 3px !important;
+}
 
+.subpanel .z-groupbox-cnt {
+    border-color: #BCE8F1 !important;
+    margin-bottom: 20px !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid transparent;
+    border-radius: 0 0 4px 4px !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) !important; 
+}
 
+.subsubpanel .z-groupbox-header {
+    background-color: #F2DEDE !important;
+    border-color: #EED3D7 !important;
+    color: #B94A48 !important;
+    padding: 10px 15px !important;
+    border-bottom: 1px solid transparent !important;
+    border-top-right-radius: 3px !important;
+    border-top-left-radius: 3px !important;
+}
 
+.subsubpanel .z-groupbox-cnt {
+    border-color: #EED3D7 !important;f
+    margin-bottom: 20px !important;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid transparent;
+    border-radius: 0 0 4px 4px !important;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.05) !important; 
+}
 
     
     

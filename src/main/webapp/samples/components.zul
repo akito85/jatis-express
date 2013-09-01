@@ -129,11 +129,12 @@
                           <textbox sclass="span4" value=".span4"/>
                 </div>
 
-                <div sclass="controls controls-row">
-                    <label sclass="span2 text-center" value=".span2 .text-center"/>
-                          <textbox sclass="span4" value=".span4"/>
-                    <label sclass="span2 text-center" value=".span2 .text-center"/>
-                          <textbox sclass="span4" value=".span4"/>
+                <div sclass="controls controls-row unwell_1">
+                    
+                    <label sclass="span2 unwell_3 text-center" value=".span3 .text-center"/>
+                          <textbox sclass="span3" value=".span3"/>
+                    <label sclass="span2 unwell_3 text-center" value=".span3 .text-center"/>
+                          <textbox sclass="span3" value=".span3"/>
                 </div>
                 
                 <x:br/>
@@ -335,45 +336,45 @@
 
                 <div sclass="controls row-fluid">
                     <groupbox sclass="span12 panel-default">
-                        <caption>main panel</caption>
+                        <caption>.panel-default</caption>
                         <div sclass="row-fluid">
-                            <groupbox sclass="panel-default">
-                                <caption>sub-panel</caption>
+                            <groupbox sclass="subpanel">
+                                <caption>.subpanel</caption>
                                 Sub groupbox                      
                             </groupbox>
-                            <groupbox sclass="panel-default">
-                                <caption>sub-panel</caption>
+                            <groupbox sclass="subpanel">
+                                <caption>.subpanel</caption>
                                 Sub groupbox                      
                             </groupbox>
-                            <groupbox sclass="panel-default">
-                                <caption>sub-panel</caption>
+                            <groupbox sclass="subpanel">
+                                <caption>.subpanel</caption>
                                 Sub groupbox
 
 								<div sclass="controls controls-row">
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
 		                       	</div> <!-- end sub sub panel group -->                                                                              
 								<div sclass="controls controls-row">
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
-		                            <groupbox sclass="span4 panel-default">
-		                                <caption>sub-panel</caption>
+		                            <groupbox sclass="span4 subsubpanel">
+		                                <caption>.subsubpanel</caption>
 		                                Sub sub groupbox                      
 		                            </groupbox>
 		                       	</div> <!-- end sub sub panel group -->                                                                              
@@ -411,7 +412,7 @@
                     </listbox>                
                 </div>
 
-                <div sclass="controls controls-row">
+                <div sclass="controls controls-row unwell_1 text-center">
                     <listbox mold="select" sclass="span4">
                         <listitem label=".span4" selected="true"/>
                     </listbox>                
@@ -491,6 +492,11 @@
 		              </x:tr>
 		            </x:tbody>
 		          </x:table>                
+                </div>
+                
+                <x:h1>DATEBOX</x:h1>
+                <div sclass="controls row-fluid">
+                    <datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
                 </div>
                 
            </div><!-- end span9 -->
