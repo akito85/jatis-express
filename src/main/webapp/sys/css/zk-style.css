@@ -200,6 +200,11 @@ tr.z-listitem-over > td.z-listcell {
     border-bottom: 1px solid #fff !important;
 }
 
+.z-radio-cnt, .z-checkbox-cnt, .z-loading {
+    padding: 3px 0 0 5px !important;
+    display: inline;
+}
+
 
 
 
