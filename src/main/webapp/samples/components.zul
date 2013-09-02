@@ -500,12 +500,33 @@
                 </div>
 
 				<x:h1>RADIO</x:h1>
-				
+				    <radiogroup id="sv1" onCheck="choice1.value = self.selectedItem.label" />
+				    <radiogroup id="sv2" onCheck="choice2.value = self.selectedItem.label" />
+				    <radiogroup id="sv3" onCheck="choice3.value = self.selectedItem.label" />
+				    				
 			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span4 unwell_3" label=".span4" />
-			        <radio sclass="span4 unwell_3" label=".span4" />
-			        <radio sclass="span4 unwell_3" label=".span4" />
+					<radio sclass="radio-inlined span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>
+			        <radio sclass="radio-inlined span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>
+			        <radio sclass="radio-inlined span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>		        
 				</div>
+
+			    <div sclass="controls controls-row unwell_1">
+					<radio sclass="radio-inlined span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
+			        <radio sclass="radio-inlined span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
+			        <radio sclass="radio-inlined span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
+			        <radio sclass="radio-inlined span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>		        
+				</div>
+
+			    <div sclass="controls controls-row unwell_1">
+					<radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+			        <radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+			        <radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>		        
+					<radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+			        <radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+			        <radio sclass="radio-inlined span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+				</div>
+ 
+
 				
 				
            </div><!-- end span9 -->

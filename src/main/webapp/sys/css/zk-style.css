@@ -202,10 +202,15 @@ tr.z-listitem-over > td.z-listcell {
 
 .z-radio-cnt, .z-checkbox-cnt, .z-loading {
     padding: 3px 0 0 5px !important;
-    display: inline;
 }
 
+.radio-inlined .z-radio-cnt {
+	display: inline !important;
+}
 
+.radio-inlined .z-checkbox-cnt {
+	display: inline !important;
+}
 
 
 
