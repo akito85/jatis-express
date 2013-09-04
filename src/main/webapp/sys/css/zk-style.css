@@ -200,6 +200,9 @@
     border-bottom: 1px solid #fff !important;
 }
 
+.z-radio label, .zradio input[type="radio"]{
+	display: inline;
+}
 
 .z-radio-cnt, .z-checkbox-cnt, .z-loading {
     padding: 3px 0 0 5px !important;
