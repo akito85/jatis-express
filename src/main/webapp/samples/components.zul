@@ -310,7 +310,7 @@
 
                 <div sclass="controls row-fluid">
                     <div sclass="span6 input-prepend">
-                        <button sclass="span4 btn" label=".span4 .btn" />
+                        <button sclass="span6 btn" label=".span6 .btn" />
                         <textbox sclass="span6" value=".span6"/>
                     </div>                                   
 
@@ -505,39 +505,39 @@
 				    <radiogroup id="sv3" onCheck="choice3.value = self.selectedItem.label" />
 				    				
 			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>
-			        <radio sclass="span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>
-			        <radio sclass="span4 unwell_3" label=".radio-inlined .span4" radiogroup="sv1"/>		        
+					<radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
+			        <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
+			        <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>		        
 				</div>
 
 			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".radio-inlined .span3" radiogroup="sv2"/>		        
+					<radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>		        
 				</div>
 
 			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>		        
-					<radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".radio-inlined .span2" radiogroup="sv3"/>
+					<radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>		        
+					<radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
 				</div>
  
  				<x:h4>example:</x:h4>
 			    <div sclass="controls controls-row">
-					<radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>
-			        <radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>
+					<radio sclass="span6" label=".span6" radiogroup="sv3"/>
+			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
 			    </div>
 			    <div sclass="controls controls-row">
-			        <radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>		        
-					<radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>
+			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>		        
+					<radio sclass="span6" label=".span6" radiogroup="sv3"/>
 				</div>
 				<div sclass="controls controls-row">
-			        <radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>
-			        <radio sclass="span6" label=".radio-inlined .span6" radiogroup="sv3"/>
+			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
 				</div>
 				
 				
