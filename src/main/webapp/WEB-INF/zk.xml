@@ -19,7 +19,7 @@
 	<desktop-config>
 	    <theme-uri>/sys/includes/bootstrap/css/bootstrap.css</theme-uri>
 	    <theme-uri>/sys/includes/bootstrap/css/bootstrap-responsive.css</theme-uri>
-	    <theme-uri>/sys/css/style.css</theme-uri>
         <theme-uri>/sys/css/zk-style.css</theme-uri>
+	    <theme-uri>/sys/css/style.css</theme-uri>
 	</desktop-config>		
 </zk>
