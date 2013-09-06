@@ -5,13 +5,6 @@
     font-weight: 700;
 }
 
-.z-label, .z-radio-cnt, .z-checkbox-cnt, .z-loading,
-.z-tabbox-accordion, .z-tabpanel-accordion,
-.z-button-os, .z-tab-accordion-text,
-.z-datebox-rounded-inp, .z-treecell, .z-treefooter-cnt, .z-treecell-cnt, .z-treecol-cnt {
-    font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
-}
-
 .z-label, .z-radio-cnt, .z-checkbox-cnt, .z-loading {
     font-family: arial,sans-serif;
     font-size: 12px;
