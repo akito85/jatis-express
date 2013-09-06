@@ -43,26 +43,8 @@ body {
     background-color: #f9f9f9 !important;
 }
 
-html, body, ul, li, a, p, div {
+html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody {
     font-family: OpenSansLight, Verdana, Arial, Sans-serif;
-}
-
-body .modal {
-  width: 80%; /* desired relative width */
-  left: 10%; /* (100%-width)/2 */
-  top: 40%;
-  /* place center */
-  margin-left:auto;
-  margin-right:auto; 
-}
-
-body .modal.fade.in {
-  top: auto; /* fade in to correct spot */
-}
-
-/* making the full height of the browser */
-body,html{
-  height:100%;
 }
 
 a {
