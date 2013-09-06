@@ -11,14 +11,7 @@
  
 /* Landscape phone to portrait tablet */
 @media (max-width: 767px) {
-    
-    #leftMenu {
-        position: relative !important;
-        width: auto !important;
-        margin: 0 !important;
-        padding: 0 !important; 
-    }
-    
+
 }
  
 /* Landscape phones and down */
