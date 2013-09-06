@@ -6,7 +6,6 @@
 }
 
 .z-label, .z-radio-cnt, .z-checkbox-cnt, .z-loading {
-    font-family: arial,sans-serif;
     font-size: 12px;
     font-weight: normal;
     padding-top: 7px;
@@ -54,7 +53,6 @@
 
 .z-column-cnt, div.z-row-cnt {
     color: #636363;
-	font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
     font-size: 12px;
     font-weight: bold;
 }
