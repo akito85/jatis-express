@@ -44,7 +44,7 @@ body {
 }
 
 html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody {
-    font-family: OpenSansLight, Verdana, Arial, Sans-serif;
+    font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
 }
 
 a {
