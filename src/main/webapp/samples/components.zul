@@ -540,12 +540,14 @@
 			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
 				</div>
 				
-				<x:h1>WINDOW</x:h1>
+				<x:h1>DECIMALBOX</x:h1>
 				<div sclass="controls controls-row">
-					<window title="test">
-					
-					</window>
+					<decimalbox sclass="span12" format="###.##" tabindex="6"/>
 				</div>
+                <div sclass="controls controls-row">
+                    <decimalbox sclass="span6" format="###.##" tabindex="6"/>
+                    <decimalbox sclass="span6" format="###.##" tabindex="6"/>
+                </div>
            </div><!-- end span9 -->
         </div><!-- end main-content -->
     </div><!-- end container -->

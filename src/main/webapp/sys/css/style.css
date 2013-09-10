@@ -150,7 +150,6 @@ span { font-size: 12px; }
     border-radius: 4px 4px 4px 4px;
     min-height: 20px;
     margin-bottom: 20px;
-    
 }
 
 .unwell_3 {
@@ -158,8 +157,8 @@ span { font-size: 12px; }
     border-radius: 4px 4px 4px 4px;
     min-height: 20px;
     margin-bottom: 20px;
-    
 }
+
 
 /* fix for chrome add margin to -2px */
 .input-prepend .add-on, .input-prepend .btn {
