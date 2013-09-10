@@ -43,7 +43,7 @@ body {
     background-color: #f9f9f9 !important;
 }
 
-html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody, button {
+html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody, button, select {
     font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
 }
 
