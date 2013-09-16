@@ -457,7 +457,7 @@
 		              </x:tr>
 		              <x:tr>
 		                <x:td><button sclass="btn btn-primary" label="Primary"/></x:td>
-		                <x:td>btn btn-primary></x:td>
+		                <x:td>btn btn-primary</x:td>
 		                <x:td>Provides extra visual weight and identifies the primary action in a set of buttons</x:td>
 		              </x:tr>
 		              <x:tr>
@@ -547,6 +547,26 @@
                 <div sclass="controls controls-row">
                     <decimalbox sclass="span6" format="###.##" tabindex="6"/>
                     <decimalbox sclass="span6" format="###.##" tabindex="6"/>
+                </div>
+                
+                <x:h1>TABBOX</x:h1>
+                <div sclass="controls controls-row">
+				<tabbox id="tb" height="300px">
+				    <tabs id="tabs">
+				        <tab id="A" label="Tab A" />
+				        <tab id="B" label="Tab B" />
+				        <tab id="C" label="Tab C" />
+				        <tab id="D" label="Tab D" />
+				        <tab id="E" label="Tab E" />
+				    </tabs>
+				    <tabpanels>
+				        <tabpanel>This is panel A</tabpanel>
+				        <tabpanel>This is panel B</tabpanel>
+				        <tabpanel>This is panel C</tabpanel>
+				        <tabpanel>This is panel D</tabpanel>
+				        <tabpanel>This is panel E</tabpanel>
+				    </tabpanels>
+				</tabbox>                
                 </div>
            </div><!-- end span9 -->
         </div><!-- end main-content -->
