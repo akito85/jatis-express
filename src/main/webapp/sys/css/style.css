@@ -247,5 +247,18 @@ span { font-size: 12px; }
 .subsubpanel .z-groupbox-cnt .z-label {
 	font-size: 12px !important;
 }
-    
+
+/* tabpanel */
+.tabpanel-default .z-tabpanel, 
+.tabpanel-default .z-tabbox-ver .z-tabpanels-ver {
+    border-color: rgb(66, 139, 202) !important;
+    border-top: none !important;
+    border-radius: 0 0 5px 5px;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.tabpanel-default .z-tabs .z-tabs-cnt {
+    border-bottom: 1px solid rgb(66, 139, 202);
+}    
     
