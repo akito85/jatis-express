@@ -551,8 +551,7 @@
                 
                 <x:h1>TABBOX</x:h1>
                 <div sclass="controls controls-row">
-				<tabbox id="tb" height="300px">
-				<tabbox sclass="tabpanel-default" id="tb" height="300px">
+				<tabbox sclass="tabpanel-default" id="tb">
 
 				    <tabs id="tabs">
 				        <tab id="A" label="Tab A" />
