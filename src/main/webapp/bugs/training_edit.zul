@@ -1,0 +1,78 @@
+<?component name="formLabel" class="com.jatis.foundation.common.ui.FormLabel" ?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+<?page title="Training Edit" contentType="text/html;charset=UTF-8"?>
+<zk>
+	<window id="windowTrainingEdit" 
+		closable="false" border="none"
+		apply="com.jatis.express.drivermanagement.ui.controller.TrainingEditController">
+		<style src="styles/css/default.css"></style>
+		<style src="sys/css/style.css" />
+		<style src="sys/includes/bootstrap/css/bootstrap.css" />
+		<style src="sys/includes/bootstrap/css/bootstrap-responsive.css" />
+		<div sclass="container-fluid content">
+			<div sclass="main-content">
+				<div sclass="thelabel">
+					${labels.driver.pesertaTraining}
+				</div>
+
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.area}" style="font-weight:bold" />
+					<listbox mold="select" id="listboxArea" sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.code}" style="font-weight:bold" />
+					<textbox  id="textboxCode" constraint="no empty"  sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.date}" style="font-weight:bold" />
+					<datebox  id="dateboxDate"  sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.trainer}" style="font-weight:bold" />
+					<textbox  id="textboxTrainer" constraint="no empty"  sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.name}" style="font-weight:bold" />
+					<textbox  id="textboxName" constraint="no empty"  sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.location}" style="font-weight:bold" />
+					<textbox  id="textboxLocation" constraint="no empty"  sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.time}" style="font-weight:bold" />
+					<timebox  id="timeboxTime" sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.estimatedParticipants}" style="font-weight:bold" />
+					<textbox  id="textboxEstimatedParticipants" constraint="no empty, /\d+/: Only numbers allowed" sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.estimatedCost}" style="font-weight:bold" />
+					<textbox  id="textboxEstimatedCost" constraint="no empty, /^[1-9]\d*(\.\d+)?$/: Only numbers allowed" sclass="span3"/>
+				</div>
+				
+				<div sclass="control-group">
+					<formLabel required="true" value="${labels.training.notes}" style="font-weight:bold" />
+					<textbox  id="textboxNote" multiline="yes" rows="4" constraint="no empty"  sclass="span7"/>
+				</div>
+
+				<separator />
+				<div align="center">
+					<button id="buttonSimpanData" label="${labels.common.simpanData}" sclass="btn btn-primary"/>
+					<separator orient="vertical"/>
+					<button id="buttonBalik" label="${labels.common.balik}" sclass="btn btn-danger"/>
+				</div>
+			</div>
+		</div>
+	</window>
+</zk>

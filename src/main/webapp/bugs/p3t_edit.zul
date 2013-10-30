@@ -1,0 +1,155 @@
+<?component name="formLabel" class="com.jatis.foundation.common.ui.FormLabel" ?>
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+<zk>
+<window id="windowP3tEdit" border="none" apply="com.jatis.express.drivermanagement.ui.controller.P3tEditController">
+<style src="styles/css/default.css"></style>
+<style src="sys/css/style.css" />
+<style src="sys/includes/bootstrap/css/bootstrap.css" />
+<style src="sys/includes/bootstrap/css/bootstrap-responsive.css" />
+<div sclass="container-fluid content">
+	<div sclass="main-content">
+		<div sclass="thelabel">
+			${labels.driver.pembuatanP3t}
+		</div>
+
+		<div sclass="control-group">
+       		<formLabel value="${labels.driver.pool}" required="true" style="font-weight:bold" />
+      	   	<listbox id="listboxPool" mold="select" sclass="span3"/>
+        </div>
+        
+        <div sclass="control-group">
+       		<formLabel value="${labels.driver.tanggalTransaksiP3t}" required="true" style="font-weight:bold" />
+      	   	<datebox id="dateboxTanggalTransaksi" sclass="span3"/>
+        </div>
+
+		<div sclass="control-group">
+			<groupbox id="groupboxP3tInformation" closable="false">
+				<hbox>
+					<groupbox>
+					<caption label="${labels.driver.bravo}"/>
+						<grid sclass="form-entry">
+							<columns>
+								<column width="200px"/>
+								<column />
+							</columns>
+							<rows>
+								<row>
+									<formLabel value="${labels.driver.nama}" style="font-weight:bold" />
+									<listbox id="listboxNamaBravo" mold="select" width="200px" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.jenisKelamin}" style="font-weight:bold" />
+									<textbox id="textboxJenisKelaminBravo" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.alamatKtp}" style="font-weight:bold" />
+									<textbox id="textboxAlamatKtpBravo" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.alamatTinggal}" style="font-weight:bold" />
+									<textbox id="textboxAlamatTinggalBravo" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.tempatLahir}" style="font-weight:bold" />
+									<textbox id="textboxTempatLahirBravo" width="200px" disabled="true" />
+								</row>
+								<row >
+									<formLabel value="${labels.driver.tanggalLahir}" style="font-weight:bold" width="200px" />
+									<datebox id="dateboxTanggalLahirBravo" width="200px" disabled="true" />
+								</row>
+								<row >
+									<formLabel value="${labels.driver.noKtp}" style="font-weight:bold" />
+									<textbox id="textboxNoKtpBravo" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.noKip}" style="font-weight:bold" />
+									<textbox id="textboxNoIndukBravo" width="200px" disabled="true" />
+								</row>				
+							</rows>
+						</grid>
+					</groupbox>
+					<groupbox>
+					<caption label="${labels.driver.charlie}"/>
+						<grid sclass="form-entry">
+							<columns>
+								<column width="200px"/>
+								<column />
+							</columns>
+							<rows>
+								<row>
+									<formLabel value="${labels.driver.nama}" style="font-weight:bold" />
+									<listbox id="listboxNamaCharlie" mold="select" width="200px" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.jenisKelamin}" style="font-weight:bold" />
+									<textbox id="textboxJenisKelaminCharlie" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.alamatKtp}" style="font-weight:bold" />
+									<textbox id="textboxAlamatKtpCharlie" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.alamatTinggal}" style="font-weight:bold" />
+									<textbox id="textboxAlamatTinggalCharlie" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.tempatLahir}" style="font-weight:bold" />
+									<textbox id="textboxTempatLahirCharlie" width="200px" disabled="true" />
+								</row>
+								<row >
+									<formLabel value="${labels.driver.tanggalLahir}" style="font-weight:bold" width="200px" />
+									<datebox id="dateboxTanggalLahirCharlie" width="200px" disabled="true" />
+								</row>
+								<row >
+									<formLabel value="${labels.driver.noKtp}" style="font-weight:bold" />
+									<textbox id="textboxNoKtpCharlie" width="200px" disabled="true" />
+								</row>
+								<row>
+									<formLabel value="${labels.driver.noKip}" style="font-weight:bold" />
+									<textbox id="textboxNoIndukCharlie" width="200px" disabled="true" />
+								</row>				
+							</rows>
+						</grid>
+					</groupbox>
+				</hbox>
+			</groupbox>
+		</div>
+		<div sclass="control-group">
+			<groupbox closable="false" width="515px">
+			<caption label="${labels.driver.pt}"/>
+				<grid sclass="form-entry">
+					<columns>
+						<column width="200px"/>
+						<column />
+					</columns>
+					<rows>
+						<row>
+							<formLabel required="true" value="${labels.driver.namaPt}" style="font-weight:bold" />
+							<listbox id="listboxPt" mold="select" width="200px" />
+						</row>
+						<row>
+							<formLabel value="${labels.driver.alamat}" style="font-weight:bold" />
+							<textbox id="textboxAlamat" width="200px" disabled="true" />
+						</row>
+						<row>
+							<formLabel value="${labels.driver.wakil}" style="font-weight:bold" />
+							<textbox id="textboxWakil" width="200px" disabled="true" />
+						</row>
+						<row>
+							<formLabel value="${labels.driver.jabatan}" style="font-weight:bold" />
+							<textbox id="textboxJabatan" width="200px" disabled="true" />
+						</row>
+					</rows>
+				</grid>
+			</groupbox>
+		</div>
+		<div align="center">
+			<button id="buttonSimpanData" label="${labels.common.simpanData}" sclass="btn btn-success"/>
+			<separator orient="vertical"/>
+			<button id="buttonBalik" label="${labels.common.balik}" sclass="btn btn-danger"/>
+		</div>
+	</div>
+</div>
+</window>
+</zk>

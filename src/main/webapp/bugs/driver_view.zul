@@ -1,0 +1,197 @@
+<?script type="text/javascript" src="sys/includes/bootstrap/js/bootstrap.js"?>
+<?script type="text/javascript" src="sys/includes/jquery/jquery-2.0.2.min.js"?>
+<zk>
+
+<style src="sys/css/style.css" />
+<style src="sys/includes/bootstrap/css/bootstrap.css" />
+<style src="sys/includes/bootstrap/css/bootstrap-responsive.css" />
+
+<div sclass="container-fluid content">
+	<div sclass="main-content">
+		<div sclass="thelabel">
+			test
+		</div>
+		<div sclass="row subcontent">
+		
+			<div sclass="control-group">
+				<vbox>
+					<label value="test" style="font-weight:bold" />
+					<div id="image" width="100px" height="150px" />
+				</vbox>
+			</div>
+			
+			<div sclass="control-group">
+				<label style="font-weight:bold" />
+				<listbox id="listboxPool" mold="select"  disabled="true" sclass="span3"/>
+			</div>
+			
+			<div sclass="row">	                 
+                 <div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+               	   	<textbox id="textboxNoKipBaru"   maxlength="255" sclass="span3" disabled="true"/>
+                 </div>
+                 <div sclass="control-group span3">
+       				 <label style="font-weight:bold" sclass="control-label span2"/>
+                     <datebox id="dateboxBerlakuKipBaru"  sclass="span3" disabled="true"/>
+                 </div>
+		 	</div>
+
+			<div sclass="control-group">
+				<label  style="font-weight:bold" />
+				<textbox id="textboxNamaLengkap"  width="608px" maxlength="50" disabled="true"/>
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+               	   	<listbox id="listboxTipePengemudi" mold="select"  sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<textbox id="textboxNamaIbu" maxlength="255" sclass="span3"  disabled="true"/>					 
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+               	    <listbox id="listboxJenisKelamin" mold="select" sclass="span3"  disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<listbox id="listboxAgama" mold="select" sclass="span3"  disabled="true"/>				 
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxTempatLahir"   maxlength="255" sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<datebox id="dateboxTanggalLahir"   class="span3" disabled="true"/>			 
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<listbox id="listboxStatusKawin" mold="select"  sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<textbox id="textboxJumlahTanggungan"   sclass="span3" disabled="true"/>			 
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxNoKtp"   maxlength="255" sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<datebox id="dateboxBerlakuKtp"   sclass="span3" disabled="true"/>
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxAlamatKtp"  rows="3" maxlength="255" sclass="span3" disabled="true"/>
+                 </div>
+				 <vbox>
+					 <div sclass="control-group span3">
+						<label style="font-weight:bold" sclass="control-label span2" />
+						<listbox id="listboxKotaKtp" mold="select"  sclass="span3" disabled="true"/>
+					 </div>
+					 <div sclass="control-group span3">
+						<label style="font-weight:bold" sclass="control-label span2" />
+						<textbox id="textboxKodePosKtp"   sclass="span3" disabled="true"/>
+					 </div>
+				 </vbox>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxAlamatDomisili"  rows="3" maxlength="255" sclass="span3" disabled="true"/>
+                 </div>
+				 <vbox>
+					 <div sclass="control-group span3">
+						<label style="font-weight:bold" sclass="control-label span2" />
+						<listbox id="listboxKotaDomisili" mold="select"  sclass="span3" disabled="true"/>
+					 </div>
+					 <div sclass="control-group span3">
+						<label style="font-weight:bold" sclass="control-label span2" />
+						<textbox id="textboxKodePosDomisili"   sclass="span3" disabled="true"/>
+					 </div>
+				 </vbox>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxNoSim"   sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<datebox id="dateboxBerlakuSim"   sclass="span3" disabled="true"/>
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<listbox id="listboxTipeSim" mold="select"  sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<listbox id="listboxStatusPengemudi" mold="select"  sclass="span3" disabled="true"/>
+				 </div>	
+			</div>
+			
+			<div sclass="control-group">
+				<label  value="${labels.driver.noHp}" style="font-weight:bold" />
+				<textbox id="textboxNoHp"  sclass="span3" disabled="true"/>
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxNamaBank"  sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<textbox id="textboxNoRek"  sclass="span3" disabled="true"/>
+				 </div>	
+			</div>
+			
+			<div sclass="row">
+				<div sclass="control-group span3">
+                	<label style="font-weight:bold" sclass="control-label span2"/>
+                 	<textbox id="textboxBankCabang"  sclass="span3" disabled="true"/>
+                 </div>
+				 <div sclass="control-group span3">
+					<label style="font-weight:bold" sclass="control-label span2" />
+					<textbox id="textboxAtasNama"  sclass="span3" disabled="true"/>
+				 </div>	
+			</div>
+			<div sclass="control-group">
+				<label style="font-weight:bold" />
+				<hbox>
+					<textbox id="textboxReferensi"  disabled="true"/>
+				</hbox>
+			</div>
+		</div>
+		
+		<div align="center">
+			<button id="buttonBalik" sclass="btn btn-danger"/>
+			<separator orient="vertical"/>
+			<button id="buttonCetak" sclass="btn btn-info"/>
+		</div>
+	</div>
+</div>
+
+</zk>
