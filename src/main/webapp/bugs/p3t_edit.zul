@@ -14,20 +14,18 @@
         test0
     </div>
 
-    <div sclass="span3">
      <div sclass="row-fluid">
-        <label sclass="span11" value=".span6"/>
-        <textbox sclass="span11" value=".span6"/>
-        
-        <label sclass="span11" value="test1" />
-        <listbox sclass="span11" id="listboxPool" mold="select"/>
- 
- 
-        <label sclass="span12" value="test2"   style="font-weight:bold" />
-        <datebox sclass="span12" id="dateboxTanggalTransaksi"/>
+        <div sclass="controls controls-row">        
+	        <label sclass="span2" value="test1" />
+	        <listbox sclass="span4" id="listboxPool" mold="select"/>
+        </div>
+        <div sclass="controls controls-row">
+            <label sclass="span2" value="test2"   style="font-weight:bold" />
+            <datebox sclass="span4" id="dateboxTanggalTransaksi"/>
+        </div>
      </div>
-    </div>
-    <div sclass="span9">
+
+    <div sclass="row-fluid">
 		<div sclass="control-group">
 			<groupbox id="groupboxP3tInformation" closable="false">
 				<hbox>
