@@ -14,16 +14,15 @@
         test0
     </div>
 
-     <div sclass="row-fluid">
-        <div sclass="controls controls-row">        
+
+        <div sclass="controls">        
 	        <label sclass="span2" value="test1" />
 	        <listbox sclass="span4" id="listboxPool" mold="select"/>
-        </div>
-        <div sclass="controls controls-row">
+	    </div>
+	    <div sclass="controls controls-row">
             <label sclass="span2" value="test2"   style="font-weight:bold" />
-            <datebox sclass="span4" id="dateboxTanggalTransaksi"/>
+            <datebox sclass="span10" id="dateboxTanggalTransaksi"/>
         </div>
-     </div>
 
     <div sclass="row-fluid">
 		<div sclass="control-group">
@@ -73,7 +72,7 @@
 						</grid>
 					</groupbox>
 					<groupbox>
-					<caption label="${labels.driver.charlie}"/>
+					
 						<grid sclass="form-entry">
 							<columns>
 								<column width="200px"/>
