@@ -563,8 +563,8 @@
 				        <tab id="E" label="Tab E" />
 				    </tabs>
 				    <tabpanels>
-				        <tabpanel>This is panel A</tabpanel>
-				        <tabpanel>This is panel B</tabpanel>
+				        <tabpanel>This is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel A </tabpanel>
+				        <tabpanel>This is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel B</tabpanel>
 				        <tabpanel>This is panel C</tabpanel>
 				        <tabpanel>This is panel D</tabpanel>
 				        <tabpanel>This is panel E</tabpanel>
