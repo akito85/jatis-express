@@ -69,7 +69,22 @@
 	font-weight: 700;
 }
 
-.z-datebox-rounded-inp { background-image: none !important; font-size: 11px !important; }
+.z-datebox-rounded-inp { 
+	background-image: none !important; 
+	font-size: 11px !important; 
+}
+.z-datebox-rounded {
+    display: inline-block;
+    font-size: 0;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.z-datebox-rounded input[type="text"] {
+    border-radius: 4px 0 0 4px;	
+}
+
 
 .z-combobox-rounded .z-combobox-rounded-btn, .z-bandbox-rounded .z-bandbox-rounded-btn, .z-datebox-rounded .z-datebox-rounded-btn, .z-timebox-rounded .z-timebox-rounded-btn, .z-spinner-rounded .z-spinner-rounded-btn, .z-doublespinner-rounded .z-doublespinner-rounded-btn {
     cursor: pointer;
@@ -86,12 +101,28 @@
 
 .z-datebox-rounded .z-datebox-rounded-btn {
 	position: relative !important;
-	left: -24px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
-	border-radius: 4px
-
+	border-radius: 4px;
+    background-image: url("../../../zk-template/assets/icons/calendar.png");
+    background-position: center center;
+    margin-left: -1px;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    height: 20px;
+    line-height: 20px;
+    min-width: 16px;
+    padding: 4px 5px;
+    text-align: center;
+    text-shadow: 0 1px 0 #FFFFFF;
+    width: auto;
+    border-radius: 0 4px 4px 0;
 }
+
+
 
 .z-grid-header .z-columns, .z-grid-header .z-auxhead {
     background-color: white;
