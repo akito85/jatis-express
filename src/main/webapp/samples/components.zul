@@ -496,11 +496,19 @@
 		          </x:table>                
                 </div>
                 
-                <x:h1>DATEBOX</x:h1>
-                <div sclass="controls row-fluid">
-                    <datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />              
+                <x:h1>DATEBOX MOLD ROUNDED</x:h1>
+                <div sclass="controls controls-row">
+                    <datebox cols="12" format="long" onCreate="self.value = new Date()" mold="rounded" />            
                 </div>
-
+                
+                <x:h1>COMBOBOX MOLD ROUNDED</x:h1>
+                <div sclass="controls controls-row">
+                    <combobox mold="rounded">
+                        <comboitem label="1"/>
+                        <comboitem label="2"/>
+                        <comboitem label="3"/>
+                    </combobox>                
+                </div>
 				<x:h1>RADIO</x:h1>
 				    <radiogroup id="sv1" onCheck="choice1.value = self.selectedItem.label" />
 				    <radiogroup id="sv2" onCheck="choice2.value = self.selectedItem.label" />

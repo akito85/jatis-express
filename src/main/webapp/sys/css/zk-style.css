@@ -69,7 +69,7 @@
 	font-weight: 700;
 }
 
-.z-datebox-rounded-inp { 
+.z-datebox-rounded-inp, .z-combobox-rounded-inp { 
 	background-image: none !important; 
 	font-size: 11px !important; 
 }
@@ -80,33 +80,34 @@
     vertical-align: middle;
     white-space: nowrap;
 }
-
-.z-datebox-rounded input[type="text"] {
+/*
+.z-datebox-rounded input[type="text"],
+.z-combobox-rounded input[type="text"] {
     border-radius: 4px 0 0 4px;	
 }
+*/
+.z-datebox-rounded .z-datebox-rounded-btn {background-repeat: no-repeat; background-image: url("../../../zk-template/assets/icons/calendar.png");}
+.z-combobox-rounded .z-combobox-rounded-btn {background-repeat: no-repeat;background-image: url("../../../zk-template/assets/icons/arrow-down.png");}
 
 
-.z-combobox-rounded .z-combobox-rounded-btn, .z-bandbox-rounded .z-bandbox-rounded-btn, .z-datebox-rounded .z-datebox-rounded-btn, .z-timebox-rounded .z-timebox-rounded-btn, .z-spinner-rounded .z-spinner-rounded-btn, .z-doublespinner-rounded .z-doublespinner-rounded-btn {
-    cursor: pointer;
-    display: inline-block;
-    height: 22px;
-    overflow: hidden;
-    vertical-align: top;
+.z-combobox, .z-bandbox, .z-datebox, .z-timebox, .z-spinner, .z-doublespinner {
+    background-color: transparent;
 }
 
-.z-combobox-rounded .z-combobox-rounded-btn-over, .z-bandbox-rounded .z-bandbox-rounded-btn-over, .z-datebox-rounded .z-datebox-rounded-btn-over, .z-timebox-rounded .z-timebox-rounded-btn-over, .z-spinner-rounded .z-spinner-rounded-btn-over, .z-doublespinner-rounded .z-doublespinner-rounded-btn-over
-{
-	height: 23px;
-}
 
-.z-datebox-rounded .z-datebox-rounded-btn {
-	position: relative !important;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-    background-image: url("../../../zk-template/assets/icons/calendar.png");
+.z-combobox-rounded .z-combobox-rounded-btn, 
+.z-bandbox-rounded .z-bandbox-rounded-btn, 
+.z-datebox-rounded .z-datebox-rounded-btn, 
+.z-timebox-rounded .z-timebox-rounded-btn, 
+.z-spinner-rounded .z-spinner-rounded-btn, 
+.z-doublespinner-rounded .z-doublespinner-rounded-btn,
+.z-combobox-btn .z-combobox-btn-icon {
+    position: relative !important;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
     background-position: center center;
-    margin-left: -1px;
+    margin-left: -28px;
     background-color: #EEEEEE;
     border: 1px solid #CCCCCC;
     display: inline-block;
@@ -120,9 +121,14 @@
     text-shadow: 0 1px 0 #FFFFFF;
     width: auto;
     border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    overflow: hidden;
 }
 
-
+.z-combobox-rounded .z-combobox-rounded-btn-over, .z-bandbox-rounded .z-bandbox-rounded-btn-over, .z-datebox-rounded .z-datebox-rounded-btn-over, .z-timebox-rounded .z-timebox-rounded-btn-over, .z-spinner-rounded .z-spinner-rounded-btn-over, .z-doublespinner-rounded .z-doublespinner-rounded-btn-over
+{
+	height: 20px;
+}
 
 .z-grid-header .z-columns, .z-grid-header .z-auxhead {
     background-color: white;
