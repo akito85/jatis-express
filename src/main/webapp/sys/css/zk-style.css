@@ -230,7 +230,7 @@
 /* uneditable input */
 
 .uneditable-input, .uneditable-textarea {
-    color: rgb(153, 153, 153);
+    color:  #333333;
     cursor: not-allowed;
     background-color: transparent;
     border: 0 none;
@@ -238,7 +238,7 @@
 }
 
 .z-textbox-disd, .z-decimalbox-disd, .z-intbox-disd, .z-longbox-disd, .z-doublebox-disd, .z-textbox-disd *, .z-decimalbox-disd *, .z-intbox-disd *, .z-longbox-disd *, .z-doublebox-disd * {
-    color: rgb(170, 170, 170) !important;
+    color:  #333333 !important;
     background: none repeat scroll 0% 0% transparent !important;
     border: none !important;
     box-shadow: none !important;
