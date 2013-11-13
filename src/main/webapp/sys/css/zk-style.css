@@ -69,41 +69,58 @@
 	font-weight: 700;
 }
 
-.z-datebox-rounded-inp, .z-combobox-rounded-inp { 
-	background-image: none !important; 
+.z-combobox-rounded-inp, 
+.z-bandbox-rounded-inp, 
+.z-datebox-rounded-inp, 
+.z-timebox-rounded-inp, 
+.z-spinner-rounded-inp, 
+.z-doublespinner-rounded-inp, 
+.z-combobox-inp, 
+.z-bandbox-inp, 
+.z-datebox-inp, 
+.z-timebox-inp, 
+.z-spinner-inp, 
+.z-doublespinner-inp {
+	background-image: none; 
 	font-size: 11px !important; 
     border-radius: 4px 0 0 4px; 
-    width: 200px !important;
-}
-.z-datebox-rounded {
-    display: inline-block;
-    font-size: 0;
-    margin-bottom: 10px;
-    vertical-align: middle;
-    white-space: nowrap;
 }
 
-.z-datebox-rounded input[type="text"],
-.z-combobox-rounded input[type="text"] {
-
+.z-combobox-focus .z-combobox-inp, 
+.z-bandbox-focus .z-bandbox-inp, 
+.z-datebox-focus .z-datebox-inp, 
+.z-timebox-focus .z-timebox-inp, 
+.z-spinner-focus .z-spinner-inp, 
+.z-doublespinner-focus .z-doublespinner-inp {
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
 }
 
-.z-datebox-rounded .z-datebox-rounded-btn {background-repeat: no-repeat; background-image: url("../../../zk-template/assets/icons/calendar.png");}
-.z-combobox-rounded .z-combobox-rounded-btn {background-repeat: no-repeat;background-image: url("../../../zk-template/assets/icons/arrow-down.png");}
+.z-datebox-rounded .z-datebox-rounded-btn,
+.z-datebox .z-datebox-btn {background-repeat: no-repeat; background-image: url("../../../zk-template/assets/icons/calendar.png");}
+.z-combobox-rounded .z-combobox-rounded-btn,
+.z-combobox .z-combobox-btn {background-repeat: no-repeat;background-image: url("../../../zk-template/assets/icons/arrow-down.png");}
 
 
 .z-combobox, .z-bandbox, .z-datebox, .z-timebox, .z-spinner, .z-doublespinner {
     background-color: transparent;
 }
 
-
-.z-combobox-rounded .z-combobox-rounded-btn, 
-.z-bandbox-rounded .z-bandbox-rounded-btn, 
-.z-datebox-rounded .z-datebox-rounded-btn, 
-.z-timebox-rounded .z-timebox-rounded-btn, 
-.z-spinner-rounded .z-spinner-rounded-btn, 
+.z-combobox-rounded .z-combobox-rounded-btn,
+.z-bandbox-rounded .z-bandbox-rounded-btn,
+.z-datebox-rounded .z-datebox-rounded-btn,
+.z-timebox-rounded .z-timebox-rounded-btn,
+.z-spinner-rounded .z-spinner-rounded-btn,
 .z-doublespinner-rounded .z-doublespinner-rounded-btn,
-.z-combobox-btn .z-combobox-btn-icon {
+.z-combobox .z-combobox-btn, 
+.z-bandbox .z-bandbox-btn, 
+.z-datebox .z-datebox-btn, 
+.z-timebox .z-timebox-btn, 
+.z-spinner .z-spinner-btn, 
+.z-doublespinner .z-doublespinner-btn
+{
     position: relative !important;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -128,7 +145,19 @@
     z-index: 11;
 }
 
-.z-combobox-rounded .z-combobox-rounded-btn-over, .z-bandbox-rounded .z-bandbox-rounded-btn-over, .z-datebox-rounded .z-datebox-rounded-btn-over, .z-timebox-rounded .z-timebox-rounded-btn-over, .z-spinner-rounded .z-spinner-rounded-btn-over, .z-doublespinner-rounded .z-doublespinner-rounded-btn-over
+.z-combobox-rounded .z-combobox-rounded-btn-over, 
+.z-bandbox-rounded .z-bandbox-rounded-btn-over, 
+.z-datebox-rounded .z-datebox-rounded-btn-over, 
+.z-timebox-rounded .z-timebox-rounded-btn-over, 
+.z-spinner-rounded .z-spinner-rounded-btn-over, 
+.z-doublespinner-rounded .z-doublespinner-rounded-btn-over,
+.z-combobox .z-combobox-btn-over, 
+.z-bandbox .z-bandbox-btn-over, 
+.z-datebox .z-datebox-btn-over, 
+.z-timebox .z-timebox-btn-over, 
+.z-spinner .z-spinner-btn-over, 
+.z-doublespinner .z-doublespinner-rounded-btn-over
+
 {
 	height: 20px;
 }
