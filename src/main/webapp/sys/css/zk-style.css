@@ -52,8 +52,8 @@
 	background-image: none !important;
 }
 
-.z-column-cnt, div.z-row-cnt {
-    color: #636363;
+.z-column-cnt, .z-row-cnt {
+    color: #000;
     font-size: 12px;
     font-weight: bold;
 }
@@ -276,7 +276,7 @@
 }
 
 .z-textbox-disd, .z-decimalbox-disd, .z-intbox-disd, .z-longbox-disd, .z-doublebox-disd, .z-textbox-disd *, .z-decimalbox-disd *, .z-intbox-disd *, .z-longbox-disd *, .z-doublebox-disd * {
-    color:  #333333 !important;
+    color:  #000 !important;
     background: none repeat scroll 0% 0% transparent !important;
     border: none !important;
     box-shadow: none !important;

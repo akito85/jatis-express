@@ -41,12 +41,33 @@
 
 body {
     background-color: #f9f9f9 !important;
-    background-image: url('http://tympanus.net/Tutorials/CSS3ContentTabs/images/bg.jpg');
+    color: #000;
 }
 
 html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody, button, select {
     font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
 }
+
+/* black text */
+input[type="text"], textarea { color: #000; }
+/* grid */
+.z-column-cnt, .z-grid-header .z-auxheader-cnt, .z-column-cnt, 
+.z-grid-header .z-auxheader-cnt, .z-column-cnt { color: #000; }
+.z-row-inner .z-row-cnt, .z-column .z-column-cnt { color: #000; }
+
+/* uneditable input */
+.uneditable-input, .uneditable-textarea {
+    color: #000;
+}
+
+/* listbox */
+select { color: #000; }
+.z-listcell .z-listcell-cnt { color: #000; }
+
+.input-prepend .btn, .input-append .btn { color: #000;  }
+
+
+.z-tab-seld .z-tab-text, .z-tab .z-tab-text { color: #000; }
 
 a {
     color: #00ace3;
@@ -86,7 +107,7 @@ span { font-size: 12px; }
     height: 100%;
 }
 
-.content { padding: 40px 15px 30px 15px; background-image: url('http://tympanus.net/Tutorials/CSS3ContentTabs/images/bg.jpg'); }
+.content { padding: 40px 15px 30px 15px; }
 
 .subcontent { margin: 20px 0 0 0;}
 
