@@ -94,8 +94,12 @@
                 <x:h4>Uneditable textbox</x:h4>
                 <div sclass="row-fluid"><label sclass="input-xlarge uneditable-input" value=".input-xlarge .uneditable-input" /></div>
                 <div sclass="controls controls-row">
-                    <textbox disabled="true" />
+                    <textbox disabled="true" value="disabled" />
                 </div>           
+               <div sclass="controls controls-row">
+                    <textbox multiline="true" value="disabled" />
+                </div>           
+ 
                 <x:br/>
                 <x:h1>TEXTBOX AND LABEL</x:h1>
                 

@@ -44,9 +44,12 @@ body {
     color: #000;
 }
 
-html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody, button, select {
+html, body, ul, li, a, p, div, span, i, input, label, table, tr, td, thead, tbody, button, select, textarea,
+.z-textbox, .z-decimalbox, .z-intbox, .z-longbox, .z-doublebox {
     font-family: OpenSansLight, Verdana, Arial, Sans-serif !important;
 }
+
+.z-textbox, .z-decimalbox, .z-intbox, .z-longbox, .z-doublebox { font-size: 14px; }
 
 /* black text */
 input[type="text"], textarea { color: #000; }
@@ -64,9 +67,7 @@ input[type="text"], textarea { color: #000; }
 select { color: #000; }
 .z-listcell .z-listcell-cnt { color: #000; }
 
-.input-prepend .btn, .input-append .btn { color: #000;  }
-
-
+.input-prepend .btn, .input-append .btn { color: #000; }
 .z-tab-seld .z-tab-text, .z-tab .z-tab-text { color: #000; }
 
 a {
@@ -352,7 +353,7 @@ span { font-size: 12px; }
     background: none;
     padding-right: 10px;
     display: block;
-    color: #ccc;
+    color: #000;
 }
 
 .tabpanel-default .z-tab-hm {

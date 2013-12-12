@@ -82,7 +82,6 @@
 .z-spinner-inp, 
 .z-doublespinner-inp {
 	background-image: none; 
-	font-size: 11px !important; 
     border-radius: 4px 0 0 4px; 
 }
 
@@ -102,7 +101,6 @@
 .z-datebox .z-datebox-btn {background-repeat: no-repeat; background-image: url("../../../zk-template/assets/icons/calendar.png");}
 .z-combobox-rounded .z-combobox-rounded-btn,
 .z-combobox .z-combobox-btn {background-repeat: no-repeat;background-image: url("../../../zk-template/assets/icons/arrow-down.png");}
-
 
 .z-combobox, .z-bandbox, .z-datebox, .z-timebox, .z-spinner, .z-doublespinner {
     background-color: transparent;
@@ -244,7 +242,7 @@
 	background-color: #e5e3e9 !important;
 }
 
-.z-listitem-over .z-listcell {s
+.z-listitem-over .z-listcell {
     border-bottom: 1px solid #fff !important;
 }
 
@@ -268,20 +266,22 @@
 /* uneditable input */
 
 .uneditable-input, .uneditable-textarea {
-    color:  #333333;
+    color:  #000;
     cursor: not-allowed;
     background-color: transparent;
     border: 0 none;
     box-shadow: none;
 }
 
-.z-textbox-disd, .z-decimalbox-disd, .z-intbox-disd, .z-longbox-disd, .z-doublebox-disd, .z-textbox-disd *, .z-decimalbox-disd *, .z-intbox-disd *, .z-longbox-disd *, .z-doublebox-disd * {
+.z-textbox-disd, .z-decimalbox-disd, .z-intbox-disd, .z-longbox-disd, .z-doublebox-disd, .z-textbox-disd *, .z-decimalbox-disd *, .z-intbox-disd *, .z-longbox-disd *, .z-doublebox-disd *, 
+.z-textbox .z-textbox-disd .z-textbox-text-disd 
+{
     color:  #000 !important;
     background: none repeat scroll 0% 0% transparent !important;
     border: none !important;
     box-shadow: none !important;
+    opacity: 1 !important;
 }
-
 
 
 
