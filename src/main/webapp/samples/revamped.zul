@@ -1,18 +1,17 @@
-<?page title="COMPONENTS" contentType="text/html;charset=UTF-8"?>
+<?page title="REVAMPED" contentType="text/html;charset=UTF-8"?>
 <?script type="text/javascript" src="../sys/includes/bootstrap/js/bootstrap.js"?>
 <?script type="text/javascript" src="../sys/includes/jquery/jquery-2.0.2.min.js"?>
 
 <zk xmlns:x="xhtml" xmlns:zk="zk">
-
+<include src="../Inc_Header.zul" />
     <div sclass="container-fluid">
         <div sclass="row-fluid">
             <div sclass="span3 unwell_1 content">
-            
-        
+                <include src="../Inc_LeftMenu.zul"/>
             </div>
             
-            <div sclass="span9 unwell_2 content bg5">
-                <div sclass="row-fluid">
+            <div sclass="main-content content bg8">
+                <div>
                     <x:h1>GRID</x:h1>
                     <grid>
                         <auxhead>
@@ -57,32 +56,32 @@
                 <x:br/>
                 <x:h1>TEXTBOX</x:h1>
                 <x:h4>Use .controls .controls-row to space input evenly</x:h4>
-            
-                <div sclass="controls controls-row">
-                    <textbox value=".span12" sclass="span12" />
-                </div>
-                
-                <div sclass="controls controls-row">
-                    <textbox value=".span11" sclass="span11" />
-                    <textbox value=".span1" sclass="span1" />
-                </div>
-                <div sclass="controls controls-row">
-                    <textbox value=".span10" sclass="span10" />
-                    <textbox value=".span1" sclass="span1" />
-                    <textbox value=".span1" sclass="span1" />
-
-                </div>
-                <div sclass="controls controls-row">
-                    <textbox value=".span9" sclass="span9" />
-                    <textbox value=".span2" sclass="span2" />
-                    <textbox value=".span1" sclass="span1" />
-                </div>
-                <div sclass="controls controls-row">
-                    <textbox value=".span3" sclass="span3" />
-                    <textbox value=".span6" sclass="span6" />
-                    <textbox value=".span3" sclass="span3" />
-                </div>
-                
+                <div sclass="">
+	                <div sclass="controls controls-row">
+	                    <textbox value=".span12" sclass="span12" />
+	                </div>
+	                
+	                <div sclass="controls controls-row">
+	                    <textbox value=".span11" sclass="span11" />
+	                    <textbox value=".span1" sclass="span1" />
+	                </div>
+	                <div sclass="controls controls-row">
+	                    <textbox value=".span10" sclass="span10" />
+	                    <textbox value=".span1" sclass="span1" />
+	                    <textbox value=".span1" sclass="span1" />
+	
+	                </div>
+	                <div sclass="controls controls-row">
+	                    <textbox value=".span9" sclass="span9" />
+	                    <textbox value=".span2" sclass="span2" />
+	                    <textbox value=".span1" sclass="span1" />
+	                </div>
+	                <div sclass="controls controls-row">
+	                    <textbox value=".span3" sclass="span3" />
+	                    <textbox value=".span6" sclass="span6" />
+	                    <textbox value=".span3" sclass="span3" />
+	                </div>
+	            </div>
                 <x:h4>Relative input size</x:h4>
                 <div sclass="row-fluid"><textbox sclass="input-mini" value=".input-mini" /></div>
                 <div sclass="row-fluid"><textbox sclass="input-small" value=".input-small" /></div>
@@ -356,34 +355,34 @@
                                 <caption>.subpanel</caption>
                                 Sub groupbox
 
-								<div sclass="controls controls-row">
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                       	</div> <!-- end sub sub panel group -->                                                                              
-								<div sclass="controls controls-row">
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                            <groupbox sclass="span4 subsubpanel">
-		                                <caption>.subsubpanel</caption>
-		                                Sub sub groupbox                      
-		                            </groupbox>
-		                       	</div> <!-- end sub sub panel group -->                                                                              
+                                <div sclass="controls controls-row">
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                </div> <!-- end sub sub panel group -->                                                                              
+                                <div sclass="controls controls-row">
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                    <groupbox sclass="span4 subsubpanel">
+                                        <caption>.subsubpanel</caption>
+                                        Sub sub groupbox                      
+                                    </groupbox>
+                                </div> <!-- end sub sub panel group -->                                                                              
                             </groupbox>
 
 
@@ -442,74 +441,74 @@
                     </listbox>                
                 </div>
 
-				<x:br/>
+                <x:br/>
                 <x:h1 id="btn">BUTTON</x:h1>
                 <div sclass="controls row-fluid">
-		          <x:h4>Default buttons</x:h4>
-		          <x:p>Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.</x:p>
-		          <x:table sclass="table table-bordered table-striped">
-		            <x:thead>
-		              <x:tr>
-		                <x:th>Button</x:th>
-		                <x:th>class=""</x:th>
-		                <x:th>Description</x:th>
-		              </x:tr>
-		            </x:thead>
-		            <x:tbody>
-		              <x:tr>
-		                <x:td><button sclass="btn" label="Default"/></x:td>
-		                <x:td>btn</x:td>
-		                <x:td>Standard gray button with gradient</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-primary" label="Primary"/></x:td>
-		                <x:td>btn btn-primary</x:td>
-		                <x:td>Provides extra visual weight and identifies the primary action in a set of buttons</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-info" label="Info"/></x:td>
-		                <x:td>btn btn-info</x:td>
-		                <x:td>Used as an alternative to the default styles</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-success" label="Success"/></x:td>
-		                <x:td>btn btn-success</x:td>
-		                <x:td>Indicates a successful or positive action</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-warning" label="Warning"/></x:td>
-		                <x:td>btn btn-warning</x:td>
-		                <x:td>Indicates caution should be taken with this action</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-danger" label="Danger"/></x:td>
-		                <x:td>btn btn-danger</x:td>
-		                <x:td>Indicates a dangerous or potentially negative action</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-inverse" label="Inverse"/></x:td>
-		                <x:td>btn btn-inverse</x:td>
-		                <x:td>Alternate dark gray button, not tied to a semantic action or use</x:td>
-		              </x:tr>
-		              <x:tr>
-		                <x:td><button sclass="btn btn-link" label="Link"/></x:td>
-		                <x:td>btn btn-link</x:td>
-		                <x:td>Deemphasize a button by making it look like a link while maintaining button behavior</x:td>
-		              </x:tr>
-		            </x:tbody>
-		          </x:table>                
+                  <x:h4>Default buttons</x:h4>
+                  <x:p>Button styles can be applied to anything with the .btn class applied. However, typically you'll want to apply these to only &lt;a&gt; and &lt;button&gt; elements for the best rendering.</x:p>
+                  <x:table sclass="table table-bordered table-striped">
+                    <x:thead>
+                      <x:tr>
+                        <x:th>Button</x:th>
+                        <x:th>class=""</x:th>
+                        <x:th>Description</x:th>
+                      </x:tr>
+                    </x:thead>
+                    <x:tbody>
+                      <x:tr>
+                        <x:td><button sclass="btn" label="Default"/></x:td>
+                        <x:td>btn</x:td>
+                        <x:td>Standard gray button with gradient</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-primary" label="Primary"/></x:td>
+                        <x:td>btn btn-primary</x:td>
+                        <x:td>Provides extra visual weight and identifies the primary action in a set of buttons</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-info" label="Info"/></x:td>
+                        <x:td>btn btn-info</x:td>
+                        <x:td>Used as an alternative to the default styles</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-success" label="Success"/></x:td>
+                        <x:td>btn btn-success</x:td>
+                        <x:td>Indicates a successful or positive action</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-warning" label="Warning"/></x:td>
+                        <x:td>btn btn-warning</x:td>
+                        <x:td>Indicates caution should be taken with this action</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-danger" label="Danger"/></x:td>
+                        <x:td>btn btn-danger</x:td>
+                        <x:td>Indicates a dangerous or potentially negative action</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-inverse" label="Inverse"/></x:td>
+                        <x:td>btn btn-inverse</x:td>
+                        <x:td>Alternate dark gray button, not tied to a semantic action or use</x:td>
+                      </x:tr>
+                      <x:tr>
+                        <x:td><button sclass="btn btn-link" label="Link"/></x:td>
+                        <x:td>btn btn-link</x:td>
+                        <x:td>Deemphasize a button by making it look like a link while maintaining button behavior</x:td>
+                      </x:tr>
+                    </x:tbody>
+                  </x:table>                
                 </div>
                 
                 <x:h1>DATEBOX NORMAL | ROUNDED</x:h1>
-	                <div sclass="controls controls-row">
-	                    <label sclass="span2" value="rounded" />
-	                        <datebox format="long" onCreate="self.value = new Date()" mold="rounded" />            
-	                </div>
-	                
-	                <div sclass="controls controls-row">    
-	                    <label sclass="span2" value="normal" />
-	                    <datebox format="long" onCreate="self.value = new Date()" />            
-	                </div>
+                    <div sclass="controls controls-row">
+                        <label sclass="span2" value="rounded" />
+                            <datebox format="long" onCreate="self.value = new Date()" mold="rounded" />            
+                    </div>
+                    
+                    <div sclass="controls controls-row">    
+                        <label sclass="span2" value="normal" />
+                        <datebox format="long" onCreate="self.value = new Date()" />            
+                    </div>
 
                     <div sclass="controls controls-row">    
                         <label sclass="span2" value="normal" />
@@ -518,67 +517,67 @@
 
                 
                 <x:h1>COMBOBOX NORMAL | ROUNDED</x:h1>
-	                <div sclass="controls controls-row">
-	                    <combobox mold="rounded">
-	                        <comboitem label="1"/>
-	                        <comboitem label="2"/>
-	                        <comboitem label="3"/>
-	                    </combobox>                
-	                </div>
+                    <div sclass="controls controls-row">
+                        <combobox mold="rounded">
+                            <comboitem label="1"/>
+                            <comboitem label="2"/>
+                            <comboitem label="3"/>
+                        </combobox>                
+                    </div>
 
-	                <div sclass="controls controls-row">
-	                    <combobox>
-	                        <comboitem label="1"/>
-	                        <comboitem label="2"/>
-	                        <comboitem label="3"/>
-	                    </combobox>                
-	                </div>
-	                
-				<x:h1>RADIO</x:h1>
-				    <radiogroup id="sv1" onCheck="choice1.value = self.selectedItem.label" />
-				    <radiogroup id="sv2" onCheck="choice2.value = self.selectedItem.label" />
-				    <radiogroup id="sv3" onCheck="choice3.value = self.selectedItem.label" />
-				    				
-			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
-			        <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
-			        <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>		        
-				</div>
+                    <div sclass="controls controls-row">
+                        <combobox>
+                            <comboitem label="1"/>
+                            <comboitem label="2"/>
+                            <comboitem label="3"/>
+                        </combobox>                
+                    </div>
+                    
+                <x:h1>RADIO</x:h1>
+                    <radiogroup id="sv1" onCheck="choice1.value = self.selectedItem.label" />
+                    <radiogroup id="sv2" onCheck="choice2.value = self.selectedItem.label" />
+                    <radiogroup id="sv3" onCheck="choice3.value = self.selectedItem.label" />
+                                    
+                <div sclass="controls controls-row unwell_1">
+                    <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
+                    <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>
+                    <radio sclass="span4 unwell_3" label=".span4" radiogroup="sv1"/>                
+                </div>
 
-			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
-			        <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>		        
-				</div>
+                <div sclass="controls controls-row unwell_1">
+                    <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+                    <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+                    <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>
+                    <radio sclass="span3 unwell_3" label=".span3" radiogroup="sv2"/>                
+                </div>
 
-			    <div sclass="controls controls-row unwell_1">
-					<radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>		        
-					<radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
-			        <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
-				</div>
+                <div sclass="controls controls-row unwell_1">
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>                
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+                    <radio sclass="span2 unwell_3" label=".span2" radiogroup="sv3"/>
+                </div>
  
- 				<x:h4>example:</x:h4>
-			    <div sclass="controls controls-row">
-					<radio sclass="span6" label=".span6" radiogroup="sv3"/>
-			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
-			    </div>
-			    <div sclass="controls controls-row">
-			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>		        
-					<radio sclass="span6" label=".span6" radiogroup="sv3"/>
-				</div>
-				<div sclass="controls controls-row">
-			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
-			        <radio sclass="span6" label=".span6" radiogroup="sv3"/>
-				</div>
-				
-				<x:h1>DECIMALBOX</x:h1>
-				<div sclass="controls controls-row">
-					<decimalbox sclass="span12" format="###.##" tabindex="6"/>
-				</div>
+                <x:h4>example:</x:h4>
+                <div sclass="controls controls-row">
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+                </div>
+                <div sclass="controls controls-row">
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>             
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+                </div>
+                <div sclass="controls controls-row">
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+                    <radio sclass="span6" label=".span6" radiogroup="sv3"/>
+                </div>
+                
+                <x:h1>DECIMALBOX</x:h1>
+                <div sclass="controls controls-row">
+                    <decimalbox sclass="span12" format="###.##" tabindex="6"/>
+                </div>
                 <div sclass="controls controls-row">
                     <decimalbox sclass="span6" format="###.##" tabindex="6"/>
                     <decimalbox sclass="span6" format="###.##" tabindex="6"/>
@@ -586,23 +585,23 @@
                 
                 <x:h1>TABBOX</x:h1>
                 <div sclass="controls controls-row">
-				<tabbox sclass="tabpanel-default" id="tb">
+                <tabbox sclass="tabpanel-default" id="tb">
 
-				    <tabs id="tabs">
-				        <tab id="A" label="Tab A" />
-				        <tab id="B" label="Tab B" />
-				        <tab id="C" label="Tab C" />
-				        <tab id="D" label="Tab D" />
-				        <tab id="E" label="Tab E" />
-				    </tabs>
-				    <tabpanels>
-				        <tabpanel>This is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel A </tabpanel>
-				        <tabpanel>This is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel B</tabpanel>
-				        <tabpanel>This is panel C</tabpanel>
-				        <tabpanel>This is panel D</tabpanel>
-				        <tabpanel>This is panel E</tabpanel>
-				    </tabpanels>
-				</tabbox>                
+                    <tabs id="tabs">
+                        <tab id="A" label="Tab A" />
+                        <tab id="B" label="Tab B" />
+                        <tab id="C" label="Tab C" />
+                        <tab id="D" label="Tab D" />
+                        <tab id="E" label="Tab E" />
+                    </tabs>
+                    <tabpanels>
+                        <tabpanel>This is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel AThis is panel A </tabpanel>
+                        <tabpanel>This is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel BThis is panel B</tabpanel>
+                        <tabpanel>This is panel C</tabpanel>
+                        <tabpanel>This is panel D</tabpanel>
+                        <tabpanel>This is panel E</tabpanel>
+                    </tabpanels>
+                </tabbox>                
                 </div>
            </div><!-- end span9 -->
         </div><!-- end main-content -->

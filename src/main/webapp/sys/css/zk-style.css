@@ -172,6 +172,11 @@
 	background-color: #e5e3e9 !important;
 }
 
+.z-row-over > .z-row-inner {
+    border-bottom: 1px solid #f7f7f7 !important;
+    border-top: 1px solid #000 !important;
+}
+
 .z-row .z-row-inner, .z-row .z-cell {
 	border: 1px solid white;
 	border-right: 1px solid transparent;
@@ -242,11 +247,7 @@
 	background-color: #e5e3e9 !important;
 }
 
-.z-listitem-over .z-listcell {
-    border-bottom: 1px solid #fff !important;
-}
-
-.z-radio label, .zradio input[type="radio"]{
+.z-radio label, .z-radio input[type="radio"]{
 	display: inline;
 }
 
